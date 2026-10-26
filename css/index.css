@@ -3131,13 +3131,13 @@ figure.highlight pre .javascript .function {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 7px;
   overflow: hidden;
-  color: #fff;
+  color: #4a443c;
   -webkit-transform: translateY(0) scale(1);
   -moz-transform: translateY(0) scale(1);
   -o-transform: translateY(0) scale(1);
   -ms-transform: translateY(0) scale(1);
   transform: translateY(0) scale(1);
-  will-change: transform, background-color, box-shadow;
+  will-change: transform, background-color, box-shadow, filter;
 }
 .tag-cloud-list a::before {
   position: absolute;
@@ -3159,10 +3159,9 @@ figure.highlight pre .javascript .function {
   transition: left 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tag-cloud-list a:hover {
-  background: var(--btn-hover-color) !important;
   -webkit-box-shadow: 0 6px 20px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.08), 0 0 0 1px rgba(255,255,255,0.05);
   box-shadow: 0 6px 20px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.08), 0 0 0 1px rgba(255,255,255,0.05);
-  color: var(--btn-color) !important;
+  filter: brightness(0.94);
   -webkit-transform: translateY(-2px) scale(1.02);
   -moz-transform: translateY(-2px) scale(1.02);
   -o-transform: translateY(-2px) scale(1.02);
