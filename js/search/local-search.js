@@ -194,7 +194,7 @@ class LocalSearch {
         this.datas = isXml
           ? [...new DOMParser().parseFromString(res, 'text/xml').querySelectorAll('entry')].map(element => ({
               title: element.querySelector('title').textContent,
-              content: element.querySelector('content').textContent,
+              content: element.querySelector('content')?.textContent || '',
               url: element.querySelector('url').textContent
             }))
           : JSON.parse(res)
