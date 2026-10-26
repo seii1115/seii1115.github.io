@@ -3131,7 +3131,7 @@ figure.highlight pre .javascript .function {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 7px;
   overflow: hidden;
-  color: #4a443c;
+  color: #dce0cf;
   -webkit-transform: translateY(0) scale(1);
   -moz-transform: translateY(0) scale(1);
   -o-transform: translateY(0) scale(1);
