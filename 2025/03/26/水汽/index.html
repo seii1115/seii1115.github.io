@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>【神代骨】水汽 | 十三日夜花</title><meta name="author" content="十三日夜花"><meta name="copyright" content="十三日夜花"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="潮湿的水汽。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【神代骨】水汽">
+<meta property="og:url" content="https://seii1115.github.io/2025/03/26/%E6%B0%B4%E6%B1%BD/index.html">
+<meta property="og:site_name" content="十三日夜花">
+<meta property="og:description" content="潮湿的水汽。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://seii1115.github.io/assets/head.png">
+<meta property="article:published_time" content="2025-03-25T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-10-28T15:47:32.112Z">
+<meta property="article:author" content="十三日夜花">
+<meta property="article:tag" content="神代凌牙">
+<meta property="article:tag" content="神代玲花">
+<meta property="article:tag" content="神代骨">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://seii1115.github.io/assets/head.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "【神代骨】水汽",
+  "url": "https://seii1115.github.io/2025/03/26/%E6%B0%B4%E6%B1%BD/",
+  "image": "https://seii1115.github.io/assets/head.png",
+  "datePublished": "2025-03-25T16:00:00.000Z",
+  "dateModified": "2026-10-28T15:47:32.112Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "十三日夜花",
+      "url": "https://seii1115.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://seii1115.github.io/2025/03/26/%E6%B0%B4%E6%B1%BD/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=5.7.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":true,"pagination":{"enable":true,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【神代骨】水汽',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap"><style>#site-subtitle{font-size:.9em!important}@media screen and (min-width:768px){#site-subtitle{font-size:1.2em!important}}</style><style>@media screen and (max-width:768px){#nav #search-button .search>i{font-size:1.3em}}</style><style>@media screen and (max-width:768px){#post-meta>.meta-firstline,#post-meta>.meta-secondline{display:block!important}#post-meta span.post-meta-tags{display:block!important}#post-meta span.post-meta-tags>.post-meta-separator:first-child,#post-meta>.meta-secondline>.post-meta-separator:first-child{display:none!important}}</style><meta name="generator" content="Hexo 8.1.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">102</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">十三日夜花</span></a><a class="nav-page-title" href="/"><span class="site-name">【神代骨】水汽</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">【神代骨】水汽</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2025-03-25T16:00:00.000Z" title="发表于 2025-03-26 00:00:00">2025-03-26</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%81%87%E9%9D%A2%E9%AA%91%E5%A3%AB%E5%9C%A3%E5%88%83/">假面骑士圣刃</a></span><span class="post-meta-tags"><span class="post-meta-separator">|</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E7%A5%9E%E4%BB%A3%E7%8E%B2%E8%8A%B1/">神代玲花</a><span class="post-meta-separator">•</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E7%A5%9E%E4%BB%A3%E9%AA%A8/">神代骨</a><span class="post-meta-separator">•</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E7%A5%9E%E4%BB%A3%E5%87%8C%E7%89%99/">神代凌牙</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">3647</span></span></div></div></div><article class="container post-content" id="article-container"><p>　　神代玲花并不常喝酒，总归还是精密的剑士，继承了兄长大人对待自我的严苛，连甜食的摄取都要控制在一个数值划定好的范围内，绝不可能逾越。但或许是一种报复？正如她偶尔会挑选一两天作为自己大爆买的日子什么的，她要是喝起酒来是一定会醉的，当然也不会是因为应酬。毕竟有谁敢逼迫神代家的烟之剑士小姐呢——又不是没有过，她曾黑着脸直接拔剑掀翻了酒桌的先例。事后有人为了弹劾就拿此事兴风作浪，结果新堂伦太郎的温和兼神代凌牙的冷漠凑在一起硬生生将对方的话头给堵了个严实……从此大家都知道神代玲花不是个好惹的，连同这三人也不是好惹的。不过接着传出来：真理之剑将成为他们的麾下之物，云云，以及一大堆有的没的的八卦一类，那又都是遥远的后话了。</p>
+<p>　　反正都习惯了嘛……</p>
+<p>　　总之眼下的状况就是如此，神代玲花喝了酒，脱了高跟鞋，坐在场馆门口长长的台阶上安静地等着兄长大人来接，夏季夜晚的空气被高温烘烤得向上蒸腾，连头发也要被托起来一样，只是有些粘连在了皮肤的表面。她总是比神代凌牙发现她先一步更快地发现神代凌牙的。末了她马上提住酒红色的高跟鞋的鞋跟，站起来，酒精使得她全身所包裹着的不善的气息都被软化下去：“兄长大人。”光脚跳下台阶时分了心，她险些整个人都往前摔，好在神代凌牙接住了她。</p>
+<p>　　这回喝的不在少数，神代凌牙能闻到混杂着妹妹惯用的香水气味的酒水味道，挥发开来了，像是一种十分灼热的物质黏在了他的神经上。时之剑士先是愣了愣，下意识地想问，为什么喝那么多？可对方却好像已经睡着了，他的手托住她的身体，她的下巴磕在他的肩头，呼吸如此平缓、深沉。神代玲花的脊背一向笔直，鲜少有松弛下来的瞬间，凌牙能看到她裸露在水泥地面的脚趾上涂了和手上一个颜色的指甲油，接着他试图避开妹妹湿润的鼻息蹭在颈侧，因为那温度太集中太集中，让他想起练习时国剑界时到极致时迸出的火花，小小的一点溅在脸上，然而滚烫。</p>
+<p>　　“回家吗，玲花？”</p>
+<p>　　他尽可能温和地说。</p>
+<p>　　“不。”</p>
+<p>　　但这时候妹妹却那样坚定那样清醒地抬起头了，一字一句慢慢地说：“兄长大人，我们去看海，好不好？就去我们以前去过的那地方。”耳下的吊坠在跳。</p>
+<p>　　自那场关于婚姻的闹剧以后神代凌牙就不擅长去拒绝妹妹，或者说，他是习惯了答应妹妹？谁叫这孩子后来以那一种愈来愈快的速度成长起来了呢？她那么铿锵那么英勇地往前走，所以神代凌牙会觉得妹妹做的没有什么错的，他开始学着放手。只是就像风筝放得太远就再也收不回了一般，有时他看着神代玲花的背影，尽管开心，也会感到一点点的寂寞。他于是告诉自己，这是代价，并学习如何与填补了妹妹位置的寂寞和谐共处。</p>
+<p>　　因此最后神代凌牙还是说好，妹妹摇摇晃晃地、非常开心地坐到了副驾驶上，抱着鞋子，那模样就像是小时候她被凌牙带着出远门：“太好啦，我们出发吧，兄长大人。”</p>
+<p>　　那会神代凌牙也才刚刚拿到驾照而已……二十岁的他效仿着记忆里父亲母亲带自己出去旅行的样子，准备好了食物与衣服，还有，一切所需要的物品，可惜的是等他们到达了目的地天上却下起了雨。下雨时的大海并不美，是凶恶的、可怖的，他只会和妹妹一起坐在海岸边的木廊下小口小口地吃着提前做好的饭团，饭里有梅子。他说，不好意思，哥哥忘记看天气预报了。神代玲花则笑得粲然，说，没关系啊，可以待在哥哥身边就很好啦！还捉了一两只笨笨的寄居蟹给他看。</p>
+<p>　　轿车悄无声息地滑入夜色中，路上神代玲花还让凌牙停了车，自己下车去便利店买来各种口味的饭团，又及，一整袋的啤酒；车内空调开久了会吹得人手脚都是那种黏糊糊的冰凉，玲花就开了窗，让飞速流动的风裹挟着高温天气会冒出的火药味灌进车里，她自己一口又一口地咬着米饭。快到终点时神代凌牙想自己可以问出口了：</p>
+<p>　　“玲花？”</p>
+<p>　　“嗯？”</p>
+<p>　　“为什么，”他顿了顿，“要喝那么多酒呢？”</p>
+<p>　　“啊……”神代玲花歪了歪脑袋，她打开了一罐新的啤酒，神代凌牙没能及时制止她，啤酒丰盈的泡沫沾在她的嘴唇边，“为什么呢……”</p>
+<p>　　“……心情不好吗？”神代凌牙迟疑地问。</p>
+<p>　　“啊，我想……也不是，兄长大人。”</p>
+<p>　　神代玲花慢吞吞地说，她的咽喉在鼓动。</p>
+<p>　　那么是因为什么呢？神代凌牙在思考：是最近又有老顽固在会议上发难？还是真理之剑新的预算批准成为了又一道难解的数学迷题？他相当努力地想要找出答案了，可是这个夜晚的湿度太令人焦躁，妹妹翻找着想要品尝饭团，塑料袋发出急雨一样拍到窗户的“哗哗”。“兄长大人很在意我的想法吗？”喝醉了的玲花问。凌牙听了温柔地笑了，他自己都没意识到自己在笑，说，当然啊。我很在意玲花的想法。</p>
+<p>　　“那就不要在意好咯。”神代玲花仿佛执意要为兄长大人编织出一片迷雾，“兄长大人现在要是没有在意，那才是真的在意了。”</p>
+<p>　　“什么？”</p>
+<p>　　“是什么呢……”</p>
+<p>　　神代玲花说着说着迷迷糊糊地闭上了眼，她睡了一会，醒来时车就停在海岸线边缘的山崖上。远远的能够听到一层一层传来的潮声，车内的空间里除了酒味、香水味、空调味、火药味，又多出一道海水味。咸涩的气味幽幽的、静静的，就像是悬浮在两个人周围的丝。</p>
+<p>　　“好漂亮。”神代玲花将一侧的脸颊轻轻贴在了车窗上，窗外的月光照着她的眼睛，使得她的双眼亮晶晶的，“和我想的一样漂亮。”</p>
+<p>　　那语气似乎在说：我已经在梦里见过这样的场面很多遍了。但是，当那次旅行结束，他们再也没有像那一次地出过远门。神代玲花被烟叡剑狼烟选中了。</p>
+<p>　　“……你喜欢这里吗，玲花？”</p>
+<p>　　神代凌牙熄灭了车辆的发动机：“我们可以下车去看。”</p>
+<p>　　“不，不，不用。”</p>
+<p>　　可妹妹说：“就在这里看就好了，兄长大人。”</p>
+<p>　　她将最简单的梅子饭团递给了神代凌牙，眨了眨眼睛，笑起来：“这样就和当年一样啦。”</p>
+<p>　　神代凌牙这才意识到神代玲花刚才品尝饭团的举动或许是在找出味道相近的产品，只是老实说，哪有味道那么糟的供给售卖的饭团呢？那是他们一起做的，火候没把控好，有些米粒很硬。他们就这样一声不吭地坐在昏暗的车子中看山崖下的海，海潮慢吞吞地舔上来……又褪下去，四周都是林木，黑漆漆的，整个世界好像只剩下承装满月亮光亮的那一小片海面是明亮的。这时神代玲花突然说，兄长大人，你要喝酒吗？她把啤酒打开，送到了神代凌牙的手边，不是无酒精的，瓶罐上标注着酒精的含量。</p>
+<p>　　他想妹妹也许是醉过头了，没有接，他有些疑惑地说：“那样就没法开车了。我们还要回去。”</p>
+<p>　　“附近就有旅馆。”神代玲花的表情被黑暗模糊得看不清，只有侧脸最边缘的一道轮廓是明晰的，在月亮下，镀了一层银边似的。她的口吻很笃定、轻松：“我可以和兄长大人在那里先度过一夜再走啊。难道会有人来这里偷车吗？”</p>
+<p>　　“啊，虽然这么说得没错……但是。”神代凌牙不想煞风景，面对妹妹，他颇为无奈地提醒道，“明天，真理之剑，早上还有会议。”</p>
+<p>　　“——那就全部都丢弃掉吧。”</p>
+<p>　　神代玲花盯着前方，露出了一种格外决绝的表情，像是下一秒就要拔出剑。</p>
+<p>　　啤酒中的气泡一颗颗涌上来了，堆在液面上，最终炸开，发出轻微的破裂声，神代凌牙便还是喝了，只是他真的没有喝酒的习惯，一不小心喝得太大口，呛得他忍不住咳嗽起来。说起来上一次喝酒是什么时候来着？凌牙记不清。他对于自己的事情总是不太记得的，就像是大脑天生没有空出这块曲艺以供他去记住有关自己的一切，从十岁起，他记得的最牢的就是：怎样的水温适合冲泡奶粉，怎样的尿布品牌适合孩子……又是怎样的时候，适合抱住哇哇大哭的婴儿，温柔地哄她入睡。</p>
+<p>　　“兄长大人觉得啤酒好喝吗？”神代玲花笑着，五官都堆到一起去，那是十分稚气的笑。</p>
+<p>　　“说实话……”神代凌牙并不想在妹妹面前显得太弱势，但是，扭过头来看着玲花，他还是艰难地承认了，“不是太好喝。”</p>
+<p>　　“太好了，”好在神代玲花闻言也并没有表现出什么其他的神情，她还是在笑，望着兄长大人的眼睛，耳坠跳动着、闪动着，想一颗过分渺茫的星星，“我也觉得不是太好喝呀。”</p>
+<p>　　“那玲花为什么……”还要喝呢？</p>
+<p>　　神代凌牙没能把问题问完。异常唐突的，神代玲花凑了上来，她小心翼翼地蹭了蹭神代凌牙的嘴唇。</p>
+<p>　　……什么？</p>
+<p>　　神代凌牙随即瞪大了眼。</p>
+<p>　　那并不是什么意外或是单纯的触碰……是仅仅依靠直觉就能感受出来的，最简单、最直白的亲吻。而神代玲花刚喝完啤酒，湿润的触感残留在神代凌牙的皮肤上。</p>
+<p>　　车内一片沉寂。</p>
+<p>　　但为什么神代凌牙在那一瞬间想起来的却是那孩子的童年时期呢？某天小小的神代玲花拉住他的衣袖，按着他的脸亲吻他的嘴唇，懵懵懂懂地笑了，高兴地说，电视剧里都是这样演的，大家都是这样对待自己最爱的人的，兄长大人就是我最爱的人啦！神代凌牙只好笑笑，又蹲下来，同笨拙地她解释，说，并不是这样的，在玲花的生命中，会遇到比哥哥更好……更值得信赖的人……那才是玲花可以这样做的人。也就是玲花的爱人。只是眼前的妹妹显然已经过了他可以说教的年纪，他又真的信服自己所告诉她的话吗？他们的目光在昏沉的视野中交错。</p>
+<p>　　那他应该再一次这样地说吗？他茫然地思考着：还是，放手？直到神代玲花的鼻尖触碰他的脸颊，那是微凉的一点，两个人的呼吸无限地膨胀、延伸。神代玲花拿过了神代凌牙手中的酒，酒水洒出些许，粘在神代凌牙的指隙。他试图分神去思考那些液体可能会带来的危害，却没有成功。</p>
+<p>　　“请闭眼，兄长大人。”</p>
+<p>　　神代玲花说。</p>
+<p>　　然后，那潮湿的空气足以在他们的身体留下成形的水汽。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://seii1115.github.io">十三日夜花</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://seii1115.github.io/2025/03/26/%E6%B0%B4%E6%B1%BD/">https://seii1115.github.io/2025/03/26/%E6%B0%B4%E6%B1%BD/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://seii1115.github.io" target="_blank">十三日夜花</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%A5%9E%E4%BB%A3%E7%8E%B2%E8%8A%B1/">神代玲花</a><a class="post-meta__tags" href="/tags/%E7%A5%9E%E4%BB%A3%E9%AA%A8/">神代骨</a><a class="post-meta__tags" href="/tags/%E7%A5%9E%E4%BB%A3%E5%87%8C%E7%89%99/">神代凌牙</a></div><div class="post-share"><div class="social-share" data-image="/assets/head.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/03/26/%E7%94%9F%E6%B0%94%E6%97%A5/" title="【羽乌】生气日"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">【羽乌】生气日</div></div><div class="info-2"><div class="info-item-1">一整天都要生气。</div></div></div></a><a class="pagination-related" href="/2025/03/24/%E7%8A%AF%E8%A7%84/" title="【羽尤】犯规"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">【羽尤】犯规</div></div><div class="info-2"><div class="info-item-1">“十个不听话的孩子，和一个听话的孩子，尤里会选择谁呢？”</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2024/12/24/%E5%8D%81%E4%BA%8C%E6%9C%88%E4%BA%8C%E5%8D%81%E5%9B%9B%E6%97%A5%E5%BE%AA%E7%8E%AF/" title="【神代骨】十二月二十四日循环"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-24</div><div class="info-item-2">【神代骨】十二月二十四日循环</div></div><div class="info-2"><div class="info-item-1">被困在十二月二十四日。</div></div></div></a><a class="pagination-related" href="/2025/03/11/%E7%BC%96%E7%BB%87%E7%89%A9/" title="【芽花】编织物"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-03-11</div><div class="info-item-2">【芽花】编织物</div></div><div class="info-2"><div class="info-item-1">不过，或许存在着另外一种可能：正因为生命过于短暂，才失去了对外交往的机会。</div></div></div></a><a class="pagination-related" href="/2024/12/18/%E4%BC%91%E5%81%87%E6%97%85%E8%A1%8C/" title="【芽花】旅行"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-18</div><div class="info-item-2">【芽花】旅行</div></div><div class="info-2"><div class="info-item-1">一起去旅行。</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">十三日夜花</div><div class="author-info-description">我们在非常寂静的松树林里走着。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">102</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://weibo.com/u/7947067016"><i class="fab fa-weibo"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/23/%E8%8B%8D%E4%B9%8B%E6%A3%AE%E6%9E%97%E7%9A%84%E5%8D%A0%E5%8D%9C%E9%AD%94%E5%A5%B3/" title="【手芝】苍之森林的占卜魔女">【手芝】苍之森林的占卜魔女</a><time datetime="2026-10-22T16:00:00.000Z" title="发表于 2026-10-23 00:00:00">2026-10-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/20/%E8%B0%A8%E9%98%B2%E5%B0%81%E5%BB%BA%E8%BF%B7%E4%BF%A1/" title="【北海北】谨防封建迷信">【北海北】谨防封建迷信</a><time datetime="2026-10-19T16:00:00.000Z" title="发表于 2026-10-20 00:00:00">2026-10-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/19/%E6%82%A0%E9%95%BF%E5%81%87%E6%9C%9F/" title="【海莲】悠长假期">【海莲】悠长假期</a><time datetime="2026-10-18T16:00:00.000Z" title="发表于 2026-10-19 00:00:00">2026-10-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/04/%E8%BF%87%E6%98%A5%E5%A4%A9/" title="【律警】关于得罪黑社会好像就会被〇〇的事">【律警】关于得罪黑社会好像就会被〇〇的事</a><time datetime="2026-10-03T16:00:00.000Z" title="发表于 2026-10-04 00:00:00">2026-10-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/09/28/%E5%8D%A1%E7%8E%9B/" title="【律警】卡玛">【律警】卡玛</a><time datetime="2026-09-27T16:00:00.000Z" title="发表于 2026-09-28 00:00:00">2026-09-28</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 十三日夜花</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.0</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script src="/js/rain.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章标题" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.0"></script></div></div></body></html>

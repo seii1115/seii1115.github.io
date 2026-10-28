@@ -1,0 +1,206 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>【贤中心】不器用 | 十三日夜花</title><meta name="author" content="十三日夜花"><meta name="copyright" content="十三日夜花"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="“在这里的人，度过了很长很好的一生。”">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【贤中心】不器用">
+<meta property="og:url" content="https://seii1115.github.io/2025/02/26/%E4%B8%8D%E5%99%A8%E7%94%A8/index.html">
+<meta property="og:site_name" content="十三日夜花">
+<meta property="og:description" content="“在这里的人，度过了很长很好的一生。”">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://seii1115.github.io/assets/head.png">
+<meta property="article:published_time" content="2025-02-25T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-10-28T15:27:37.340Z">
+<meta property="article:author" content="十三日夜花">
+<meta property="article:tag" content="富加宫贤人">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://seii1115.github.io/assets/head.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "【贤中心】不器用",
+  "url": "https://seii1115.github.io/2025/02/26/%E4%B8%8D%E5%99%A8%E7%94%A8/",
+  "image": "https://seii1115.github.io/assets/head.png",
+  "datePublished": "2025-02-25T16:00:00.000Z",
+  "dateModified": "2026-10-28T15:27:37.340Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "十三日夜花",
+      "url": "https://seii1115.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://seii1115.github.io/2025/02/26/%E4%B8%8D%E5%99%A8%E7%94%A8/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=5.7.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":true,"pagination":{"enable":true,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【贤中心】不器用',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap"><style>#site-subtitle{font-size:.9em!important}@media screen and (min-width:768px){#site-subtitle{font-size:1.2em!important}}</style><style>@media screen and (max-width:768px){#nav #search-button .search>i{font-size:1.3em}}</style><style>@media screen and (max-width:768px){#post-meta>.meta-firstline,#post-meta>.meta-secondline{display:block!important}#post-meta span.post-meta-tags{display:block!important}#post-meta span.post-meta-tags>.post-meta-separator:first-child,#post-meta>.meta-secondline>.post-meta-separator:first-child{display:none!important}}</style><meta name="generator" content="Hexo 8.1.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">102</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">十三日夜花</span></a><a class="nav-page-title" href="/"><span class="site-name">【贤中心】不器用</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">【贤中心】不器用</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2025-02-25T16:00:00.000Z" title="发表于 2025-02-26 00:00:00">2025-02-26</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%81%87%E9%9D%A2%E9%AA%91%E5%A3%AB%E5%9C%A3%E5%88%83/">假面骑士圣刃</a></span><span class="post-meta-tags"><span class="post-meta-separator">|</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E5%AF%8C%E5%8A%A0%E5%AE%AB%E8%B4%A4%E4%BA%BA/">富加宫贤人</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">12681</span></span></div></div></div><article class="container post-content" id="article-container"><p>　　1.<br>　　<br>　　1996年富加宫贤人出生，那时经济繁荣的泡沫已经散去，来自黄金年代的人们惶恐于今日的晚饭与明日的工作，奢侈品、贷款、股票、基金、高级公寓……连同每年数十或是数百次的夏威夷旅行都沦为了经年的泡影。值得庆幸的是剑士们本身并不受什么负面的影响——吗？与失业潮相反，他们在这整个庞大的低迷的社会中反而愈发地忙碌起来。有谁能想到一些人会因为区区的几万日元就将自己卖给巧言令色的米吉多们呢？这似乎在说，怪物比起咄咄逼人的黑道们倒更令人值得相信。因此富加宫贤人降生的那天富加宫隼人就在和上条大地斩杀这样诞生的怪物。同年神山飞羽真也出生了，然后，在那不久之后，水之剑士长岭谦信将要捡到一名名为“新堂伦太郎”的婴儿。而他们三人在故事开始时的模样如出一辙：他们号啕大哭。<br>　　<br>　　据说富加宫贤人浅色的瞳仁继承自他素未谋面的母亲……然而他对于母亲的记忆却只有局促又短暂的一个梦。那是在夏夜。风很暖很温软地吹。<br>　　<br>　　“孩子爸爸，”质地非常柔软的女声轻轻地问，“你说这孩子的名字该叫什么呢？”<br>　　<br>　　“呀……这我倒是还没想好啊。真难办，是不是？”<br>　　<br>　　父亲就站在母亲的身边，富加宫隼人低下了头，注视摇篮中昏昏欲睡的婴儿，不安分的浮尘被暖黄的灯光照成流萤似的光团。乳白色的纱帘在这对夫妇的身后飘啊飘……飘啊飘……飘啊飘……裙摆一般，这时做父亲的心里微微一动。他恍然地拍了拍脑袋：“啊，对了！‘贤’！怎么样？这可是聪明和智慧的意思。”<br>　　<br>　　“嗯？让我想一想……”<br>　　<br>　　眉目模糊不清的女人沉吟了一会，摸着下巴，不久，又笑了。后来富加宫贤人偶尔会剪下杂志上模特的五官去努力拼凑那样一个笑，或者对着镜子抿抿嘴唇，眯眼，想象母亲的部分在自己身上留下的痕迹。随即她欢快地说：“哈，那就叫——‘贤人’吧？听上去这孩子以后会成为帅哥哟。”<br>　　<br>　　贤人不知道自己有没有成为母亲所期望他成为的那种帅哥……反正，从后往前数，的确有两个叫作“贤人”的帅哥就是了：贺来与山崎，什么的。当然母亲也没能活到见证他们在娱乐圈一炮而红的年纪就走了，病逝。<br>　　<br>　　富加宫隼人有时带富加宫贤人去扫墓，相当不可思议的是，母亲的墓碑只是一块光秃秃的石头，姓名、身份、生卒年日，一样也无。据父亲所说这是母亲亲自做出的安排。可是时至今日富加宫贤人也没能弄懂母亲蕴含其中的深意啦——包括，她烧掉了家中所有拍下了她的身影的照片这点。“这究竟是为什么呢？”贤人忍不住问，而后神山飞羽真咬着手指饼干，晃了晃脑袋。<br>　　<br>　　“我想，贤人的妈妈，只是不希望还活着的人悲伤吧？”他含含糊糊地说道，将膝盖上的书又翻过一页，“只要有自己的痕迹就会留存下回忆喔，那干脆，就全部都不要剩下就好咯。”<br>　　<br>　　“诶？是这样吗……”<br>　　<br>　　富加宫贤人撑着脸，小声嘀咕，手往饼干桶里摸，结果却一无所获，原来不知道从什么时候起他带来的满满一桶手指饼干被吃得一干二净了。他便有些困惑地想：明明我自己还没吃多少耶……接着，他想到了什么。<br>　　<br>　　“……等等。”<br>　　<br>　　贤人瞪大眼睛，下一秒猛地扭头！他瞧向了某个还在慢条斯理地看着书的饼干贼。后者则在感知到朋友的目光的一瞬间嚼碎了饼干，咔吧咔吧的，神山飞羽真赶在贤人抓着他肩膀摇晃前吞下了口腔里的所有东西。贤人见状震惊地大喊：“真是的，我说——飞羽真？！”<br>　　<br>　　“你怎么可以一个人把我的饼干都吃光啦？！”<br>　　<br>　　“抱歉——我看书太入迷了嘛！”<br>　　<br>　　神山飞羽真赶忙“啪”的一下将双手合十了，那本《银河铁道之夜》顺着他的膝盖滑到一边：“明天我会买一桶新的赔给贤人的……啊啊，好啦好啦，对不起！我绝对、一定、真的会做到的！”<br>　　<br>　　“——这是约定！！！”<br>　　<br>　　飞羽真闭上眼睛十分真诚地呐喊，不过放下手，映入他眼帘的是富加宫贤人无奈的表情，对方显然并没有认真地在生气。<br>　　<br>　　“好吧好吧……我知道了，飞羽真。那就约定好了啊。”<br>　　<br>　　贤人一边叹着气一边竖起了小指，虽然老实说他早就习惯啦，他的这位朋友的脾气，还有一读起书来就什么都不管了的性格。随后他捡起翻倒到草丛里的书，宫泽贤治的《银河铁道之夜》，他和飞羽真一起读到了四分之三。<br>　　<br>　　但是，在起身的一刻，他们都看到系在发尾的绸制蝴蝶结晃动——<br>　　<br>　　富加宫贤人马上就想起那一年他做过的那场梦，乳白色的纱帘在影影绰绰的声音中温吞地飘。<br>　　<br>　　“找到啦。”<br>　　<br>　　那个女孩露出微笑。<br>　　<br>　　2.<br>　　<br>　　两个人的读书会从此变为三个人共有——但真正使富加宫贤人头疼的事情大概只有一个？那就是：飞羽真和露娜这两个家伙实在是太容易闹别扭啦！充当牵线搭桥的传音筒角色也是很累的好不好？当然正因如此，才十岁大的某人就这样磨出了外交官似的嘴皮……直到很多很多年以后都偶尔会有人好奇地问起来呢，说，贤人贤人，你很会哄小孩子耶？而那个曾经怎么也不肯放弃富加宫贤人名字后的缀语的绿色剑士就是这一点最好的证明——<br>　　<br>　　哪里哪里，其实只是熟能生巧呀。贤人听了也总是不好意思地笑，挠挠头，这么说着。不过这时候他想起来的却往往是篝市的某一个傍晚噢，那一天的夕阳渗出大片大片的血红，连同露娜的裙摆一起，都跟被泡在浓浓的血泊里似的，极端刺眼。同一时间里这个穿着白裙子的女孩子带他走遍了篝市最拥挤的街道上的共计二十六个电话亭……他们谨慎又小心地盘摸过每一只退币口。“诶？”最后，竟然也能够凑足可以买下一盒三只可乐饼的金钱。富加宫贤人不可思议地盯着静静躺在掌心的百円硬币。<br>　　<br>　　可乐饼门店门前的音箱里放着一首歌：<br>　　<br>　　“土豆——芝士——还有洋葱——”<br>　　<br>　　“这就是——”<br>　　<br>　　“美味好吃咔嗞咔嗞可乐饼的秘诀——”<br>　　<br>　　当露娜半蹲在明亮的玻璃橱窗前时斜射的红色光线穿过了她柔软的发梢，由恒星发射出的光束不远万里地扑在近乎光滑的完美镜面……那些橙黄飞盘状的斑斓光点就趴到了富加宫贤人视网膜上，它们探头探脑的，一副不肯退让的模样。“那个，贤人，”露娜而后小口小口地咬着自己的那只可乐饼，紧锁住眉头，抿唇，挤出一张十分严肃的表情，“你觉得飞羽真的生日应该送一些什么好呢——”<br>　　<br>　　她认认真真地瞪住盛放在橱窗中的高级钢笔：“虽然飞羽真的字超烂的。”<br>　　<br>　　“嘛嘛，不过，其实飞羽真写字时懒洋洋的样子占很大一部分的因素就是了。”贤人笑起来，非常自然地替不在场的某人做辩解，“但是我觉得露娜你要是送他钢笔的话他会好好写字的哟？只是话又说回来……露娜和飞羽真不是还在吵架嘛。”<br>　　<br>　　“那是不一样的哦。”露娜拨开耳朵旁跑乱的头发，她眨了眨眼，“况且，这不是有贤人你在吗？没关系啦。”<br>　　<br>　　“等等等等——我已经要帮露娜送可乐饼给飞羽真了的说，总不能连生日礼物也代劳吧？”贤人闻言马上换上了吃惊的口吻，愁眉苦脸的……他隔着那一层透明的屏障摸了摸上面倒映出的自己，“你们赶紧和好嘛，我也很累的耶。说起来明天露娜还要和那家伙见面的吧？露娜你还要去哦……飞羽真他肯定会赌气哦？”<br>　　<br>　　“那是当然啦，我要去的。”露娜轻快地歪了歪脑袋，小指上的金属指环触碰玻璃橱窗的表面，啪嗒，那是露水从一片叶子砸到另一片叶子的声响，“因为，这是约定呐，而且——”<br>　　<br>　　“而且？”<br>　　<br>　　“而且，我有种感觉……”<br>　　<br>　　没由来地安静了一会，露娜突然很小声地说道：<br>　　<br>　　“贤人，你知道吗？我经常有一种感觉哦，那就是，我好像知道这件事就是要这么做的。我一定要根据我的感觉完成这件事情哟？”<br>　　<br>　　“好像有点绕耶……不过，我大概能理解啦。”贤人笑得眼睛眯眯的，“意思是露娜的直觉很准，对吧？毕竟你总能猜中故事的结局啊。”<br>　　<br>　　“不，也不是这样的。”<br>　　<br>　　可露娜摇了摇头，紧接着，很罕见的，她垂下眼睛，心情好像异常地低落起来：“不是能猜中哟？我是说，其实是，我早就知道故事的结局啦。”<br>　　<br>　　“咦？”<br>　　<br>　　“什么……意思啊？”富加宫贤人茫茫然然的，提在右手的可乐饼盒子冒出热气，蒸上来，粘在他攥拳的手指指背上，一阵黏黏糊糊的触感。他疑惑地张了张嘴：“如果是这样的话，那我就不明白了……”<br>　　<br>　　“算啦，没什么，贤人就当做是我在说些莫名其妙的话吧？”<br>　　<br>　　露娜飞快地直起身子，弹跳的麻花辫尾巴牵着绸制蝴蝶结上上下下，有种不符合环境的急切的清爽。她干脆将剩余的几枚十円硬币都倒在贤人的手掌上，双眼弯成月亮的形状：“那么明天贤人不来吗？是家里有什么事情吗？”<br>　　<br>　　“嗯！”贤人用力地点点头，那些硬币，沾染着露娜身为生命体应有的体温，“爸爸说他明天有个任务，会很危险的，又害怕波及到我，让我好好待在家里不要乱跑呢。毕竟之前也有过绑架剑士孩子的事情出现……他最近又那么忙。”<br>　　<br>　　说这话时他的鞋底不自觉地磨蹭路面的砂石。可为什么明明穿的是跑鞋了还能感觉到小石子的尖角呢？简直，就像是那尖锐的棱角打心底长出来了一样。<br>　　<br>　　“诶……贤人父亲真的很辛苦啊。”露娜眨着眼，“那我走啦，贤人，再见哟。”<br>　　<br>　　“啊——那个，还有！露娜！等一……”<br>　　<br>　　“嗯？什么？”<br>　　<br>　　露娜就站在稍远一些的地方回头了，太阳慢慢慢慢地沉没到地平线下，隐没在她身后……人群的影子随即将她整个人的形状都撕扯得模模糊糊的。<br>　　<br>　　于是富加宫贤人忽然就忘了自己要说些什么。<br>　　<br>　　“啊……不。不。没什么。”<br>　　<br>　　他笑了，转而将双手环在嘴边，大喊：<br>　　<br>　　“明天——露娜——你一定要和飞羽真和好啊！你不知道——他这个人——都快把我给烦死了！！！”<br>　　<br>　　“——好！”<br>　　<br>　　“其实那天，我本来是想问你这个问题的：那露娜又是因为什么而和我们成为朋友的呢？”富加宫贤人放下了咖啡杯，丰盈的奶泡拥簇在杯口的边缘，海潮一般，随着摇摆的液体轻微地晃动，“可是直到最后，我都没能问出来呢。”<br>　　<br>　　“那贤人现在知道答案了吗？”<br>　　<br>　　露娜低下头，笑了笑，咖啡液的表面并没能映照出她的影子。<br>　　<br>　　“嗯，我知道啦。”他转过脑袋。<br>　　<br>　　篝市进入了它难得漫长的雨期。<br>　　<br>　　3.<br>　　<br>　　富加宫贤人后来会想：如果那个时候他没能那么听话那整件事情会变得如何呢？当然，这又是在他接过父亲的剑前所拥有的念头了。况且也并不是全无征兆啊，明明那个晚上他已经知道父亲走到了他的床头了……却还是没能睁开眼，只是装作自己乖乖睡着了的样子，感受父亲在他额角小心翼翼地触摸。只是那时他还不明白他的父亲就要永远离开他啦，他也还不明白他即将要失去的是什么，他终于还是睡着了。此后的许多许多年，贤人做噩梦，或是做着梦里漆黑一片的噩梦。<br>　　<br>　　……贤人第一次穿的西装还是母亲准备的呢，略有些大，好在那时他早窜起了个子，身高放在整个学校里都算高。<br>　　<br>　　大约母亲没想到过自己的儿子能有这样超人的身量？父亲又不在了，他意外翻出压在衣柜最下方的西装时只好有些好笑地猜测：是妈妈提前为自己的什么毕业典礼买好的吧？“我的孩子当然要从小就穿得像个帅哥啦”——一类的理由。可惜的是他穿上它的场合不是值得多么欢呼雀跃的仪式，而是葬礼。<br>　　<br>　　剑士们的。<br>　　<br>　　新堂伦太郎和他之间夹着大秦寺先生与尾上先生的距离，富加宫贤人记得他，那个同他年纪相仿的、睁大了大眼睛努力不想要哭泣的孩子是水之剑士长岭谦信的弟子。以往伦太郎见到他总是有些腼腆的来着……抱着长岭先生常念的《世界百科全书》，他卡在贤人最喜欢待着的北区基地书库的第三排书架前犹豫，然后，他格外小声地询问着贤人“那边”的种种，新闪先生还总喜欢逮住他俩来陪自己打游戏。可为什么他们最后都死了呢？前几天，镜姐还在查阅下一届奥运会的消息，末了掐了掐贤人的脸，笑眯眯地说，啊呀，是贤人呀，要和我一起去攀岩吗？<br>　　<br>　　可他们都死了。<br>　　<br>　　新堂伦太郎为师父献上花束，在经过富加宫贤人的面前时，他轻轻地说：“贤人君，我不怪你。”<br>　　<br>　　“什么？”<br>　　<br>　　“我说。”<br>　　<br>　　伦太郎拉住了贤人似乎因寒冷而微微颤抖的手，一字一句地，他缓慢、坚定、温柔地重复了一遍：<br>　　<br>　　“贤人君，我不怪你，因为这并不是你的错啊。”<br>　　<br>　　沉默。<br>　　<br>　　“……嗯。”<br>　　<br>　　当富加宫贤人沉默的时候天上像是下起了温热的雨，澄清的液体沿着他手背一点、一点地掉落，流进指间，熔成铁水一样的滚烫。新堂伦太郎的手上又布着厚厚的一层茧……那是剑士们所特有的双手，像一条路，但在那一瞬间贤人还是不可避免地记起一件事。<br>　　<br>　　——父亲是从什么时候开始不再牵着他的手的呢？<br>　　<br>　　好像已经很久很久。<br>　　<br>　　“对不起。”<br>　　<br>　　因为想到了父亲，所以贤人仍旧说：“对不起。”一遍一遍。<br>　　<br>　　第二天尾上亮送他上学，站在一个过分熟悉的路口，他的眼睛抖了抖。“尾上先生。”他牵住对方的袖子，其实内心应该是十分慌乱的吧？可是，那时候的他很累很累了，因此说起话来也是格外倦怠的、平静的口吻：“我们可以不要走这条路吗？换一条吧，那边的那条更近一些。”尾上亮说好。<br>　　<br>　　富加宫贤人和神山飞羽真并不在同一所学校念书，有时放学得晚了，飞羽真居然会带着露娜一起翻墙来找他。飞羽真落地时是“咚”的一声！这家伙总是先把书包扔下来——垫在地上——好不让膝盖摔疼什么的。露娜则压根不会发出什么声音，她就那样轻飘飘地落下来了，翻墙也好爬树也好，她永远比男孩们来得要轻盈得多。<br>　　<br>　　“别这样啦……”贤人往往叹着气，叉腰，“我说，飞羽真，要是被老师抓到可就糟糕了耶？而且做这种事情也不要带着露娜嘛……她可以从前门进的啊。我们学校的门卫很好说话的。”<br>　　<br>　　“因为我们很想快点见到贤人啊。”飞羽真回答得理直气壮，干脆地捡起了角落里的一把扫帚，“所以贤人快点把班级值日做完吧！我和露娜可是来帮你的哦！”<br>　　<br>　　“是啊是啊，贤子姐姐。”露娜学着飞羽真的语气说话，她抖抖裙摆，再从飞羽真的后脑勺上摘下了一片叶子，笑眯眯的，“而且，我翻墙翻得比飞羽真好嘛——”<br>　　<br>　　学校的围墙外新种上几株樱花树，枝叶生长得密密麻麻，再没留下什么空隙给也许还会有的顽皮孩子爬了；富加宫贤人第二次地穿上那套西装站在围墙边，现在它极妥帖、合身，花瓣如细雪般飘荡。<br>　　<br>　　“贤人！”<br>　　<br>　　有人从背后喊他，他马上扭过脑袋，笑起来，问，怎么了吗？是老师在喊大家去拍毕业照吗？那个孩子却摇摇头，脸颊跑的很红，眼珠子亮晶晶的：“是我想问问贤人要去哪个初中啦！我直升上去了哦——但是我听说贤人拒绝了？”<br>　　<br>　　“嗯？啊，是啊……”贤人歪歪脑袋，神情一如既往的温和。放空了视线，他模棱两可地回答：“我还不清楚啦。”<br>　　<br>　　“诶……”<br>　　<br>　　“走吧？老师在叫我们了哦。”<br>　　<br>　　贤人及时指了指不远处，那边人头攒动。<br>　　<br>　　转过身来时他听到围墙的一侧传来“咚”的一声……但也没停下。他想：是猫？还是鸟？他不知道。<br>　　<br>　　富加宫贤人只知道那不会是神山飞羽真。<br>　　<br>　　4.<br>　　<br>　　“我已经好好地考虑过了，尾上先生，真的。”<br>　　<br>　　他靠着车窗。<br>　　<br>　　那些雨水沿着车窗的表面滑落下来……牵扯出斑驳的投影。<br>　　<br>　　我要成为剑士。<br>　　<br>　　他说：“我要成为剑士。”<br>　　<br>　　红灯在此时转变为绿色，尾上亮没说话，一言不发地转动了方向盘。那棵寂寂的树从此就在富加宫贤人的视线中越来越远……越来越远……直到，它成为他眼球上飘摇的黑点。<br>　　<br>　　5.<br>　　<br>　　真理之剑中收养的孩子不少，大家身为剑士出门看到了遭到意外而流落的多多少少就拎那么一个两个回来，末了能被领养的就领养，领养不来的就交由组织公开抚养，而他们中的有些成为了文官有些又成为了剑士的剑士——“总之，真理之剑就是靠这些存在至今的哟。”索菲亚大人是这么解释的。北区基地的守护者也喜欢对孩子们笑，喜欢为他们念书里的故事，只是“绝对不要问那个人的年龄”。<br>　　<br>　　此乃大秦寺先生的肺腑之言……<br>　　<br>　　不过既然总是有新的孩子会来的，那当然就会有对应的学校一类的东西啦，小学毕业以后富加宫贤人就在南北区基地之间来回地跑：一边跟着学习剑术，一边跟着学习同年龄孩子该有的知识。总不能当个只有小学文化水平的文盲是不是？当然，说是学校，其实这些年也就贤人和伦太郎两个学生来着，又都听话，把一把年纪了的文官激动得直掉眼泪：“你们真是我那么久以来带过最好的学生。”<br>　　<br>　　与此呈现鲜明对比的是作为他们“教室”的书房的对面那头……那间小屋子里时不时就传来抓狂的咆哮声：<br>　　<br>　　“——给我好好写汉字啊喂！！！”<br>　　<br>　　彼时贤人正在走廊上等着有事跑去找人的伦太郎呢，打算到时候两人一起回北区基地，也略有些好奇地在房间的门口打探，结果听到屋内的声音硬生生完成了由苦口婆心、怒火中烧到歇斯底里的三连跳……然后敞开了微微的一条小隙的房门中蹿出了一小团炮弹似的黑影！对方好像还拿着书之门，大概，是抢来的？反正贤人一不留神，猛地被黑影撞进了书之门的传送通道里——<br>　　<br>　　“……好疼？！”<br>　　<br>　　两个人一齐摔成了一团。<br>　　<br>　　好在没被传送到什么奇怪的地方就是了，据说书之门刚开始在基地内推行时，某某剑士不小心被传送到了亚马逊热带雨林的深处的传闻也是有的。富加宫贤人的视野边缘率先浮现的是对面墙壁上新闪前辈贴的游戏海报——他“借住”在了前辈的房间，而他还没有撕下前辈的装饰——接着是一张小孩子的脸。那孩子看上去也才不到十岁，双眼瞪得圆圆的：<br>　　<br>　　“你是谁啊？！”<br>　　<br>　　“诶？”贤人还处在一脸的茫然中。<br>　　<br>　　“啊——我想起来了！”最后反倒是小孩自己先给出了答案，他蹦起来，“你是贤人对吧？！富加宫贤人——师父经常跟我提到你的！”<br>　　<br>　　“……噢。”贤人不知道这时候是不是该高兴，“那……”<br>　　<br>　　“你很强吗！”小孩再一次地抢白了，“唰”的一下，竟然随手就抽出来一把练习用的软剑，“那来和我比一场吧！”<br>　　<br>　　“什么？等、等等！等一——”<br>　　<br>　　“哈！！！”<br>　　<br>　　……结局是，富加宫贤人直接揪着这小孩的领子，将人给整个拎了起来。<br>　　<br>　　贤人无奈地瞅着他在自己的手底张牙舞爪，叹了口气：“我也想起来了……你是莲，对吧？绯道莲，我没记错吧？”<br>　　<br>　　“对！”小孩梗着脖子嚷嚷，“我就是莲！”<br>　　<br>　　原来南区基地里传说不肯学写字却成天到处找人比试的家伙是这孩子啊……“所以，”他的手有点酸了，拎着莲在半空中提了提，“是因为师父在教你汉字，所以才？”他没说完，但是想也知道接下来的话是什么吧。<br>　　<br>　　“……是。”<br>　　<br>　　绯道莲以肉眼可见的速度蔫吧下去了，末了还是在嘴硬，小声嘀咕：“那又怎么样啦？！剑士只要强大不就好了吗！强大才是正——”<br>　　<br>　　“但是！如果哦——我说如果。”贤人连忙止住他没完没了的“强大”宣言，顿了顿，笑了，“要是莲能成为‘假面骑士剑斩’什么的……难道要用平假名写‘剑斩’两个字吗？嗯？”<br>　　<br>　　“那又——”<br>　　<br>　　“那样一点也不帅气耶。”<br>　　<br>　　贤人十分诚恳、认真地瞧着他：“果然还是会写汉字会比较好吧？古代的剑士也都是这样的哦，有些剑士还会写拉丁文呢。”<br>　　<br>　　“可是，那个……可是……”<br>　　<br>　　莲的表情风云变幻……虽然显而易见的，他似乎已经被这样莫名其妙的理由说服了，只是仿佛还咬着嘴唇在纠结什么。贤人见状就把人先给搁回地上了，蹲下来，小心翼翼摸着这小孩修了个短寸头的脑袋，手感毛绒绒的，像颗圆溜溜的猕猴桃：“我都听到了哦，是不是师父叫你罚抄自己的名字一百遍啊？我可以跟你做一个小交易，怎么样？”<br>　　<br>　　绯道莲不自在地拽了拽自己皱巴巴的衣角，略带着生硬地说：“……怎么啊。”<br>　　<br>　　“我可以帮莲抄其中的五十遍，怎么样？”富加宫贤人眯起了眼睛笑，“但是，作为交换，莲每周来我这里看书吧，你觉得如何呢？”<br>　　<br>　　“嗯……”<br>　　<br>　　“五十遍哦五十遍。”<br>　　<br>　　“那……”莲纠结了好一会，嘟囔，“那好吧。成交。”<br>　　<br>　　在如此的诱惑下，绯道莲屈服了……<br>　　<br>　　而且贤人真的挺强的，也挺高的，莲打不过他……<br>　　<br>　　此后南区基地的文官们惊奇地发现贯穿极地的咆哮声少了不少，绯道莲也终于会写上几个汉字了，至少没再在草稿纸的边缘用铅笔画拿剑对打的小人玩。说着“麻烦死了”的同时他每周跑一趟北区基地是雷打不动的。有回看书看得晚了，莲饿得都不吵了，摸着空荡荡的肚子直忧郁，幽幽地念叨：“贤人我好饿啊……贤人我好饿……贤人，贤人？你听到了吗……”<br>　　<br>　　“听到啦听到啦，我听着呢。”贤人合上书，“不过，都这个点了啊，现在基地的食堂都关了吧……”<br>　　<br>　　“诶——可是我好饿啊——贤人——”<br>　　<br>　　“我知道的啦，有东西吃的，有哦有哦。”贤人蹲下来，翻箱倒柜，“所以莲能不能先帮我去烧一壶热水呢？很快就好。”<br>　　<br>　　“咦？贤人要做饭吗？”绯道莲眨巴眨巴眼。<br>　　<br>　　“总之，莲先去烧水吧？”贤人笑眯眯的、语焉不详的，他背着手，“我可是会变魔法的。”<br>　　<br>　　“……故作玄虚哦。”<br>　　<br>　　莲盯着他，嘴上吐槽着，但身体先乖乖动起来了。<br>　　<br>　　其实只是速食杯面而已啦——富加宫贤人起先长身体，饭总吃不饱，一到三更半夜就饿，又不好意思额外再说，只好悄悄地在房间屯了一小箱的杯面。他随手捡起一杯绿风豚豚骨风味的：“莲吃这个可以吗？”<br>　　<br>　　“嗯……都可以啊，能快点就好啊。”<br>　　<br>　　绯道莲端来热水壶，就这样巴巴地蹲在桌边看着贤人拆了包装，再将那些小包小包的玩意倒进去，加入了小半壶的烫水。白色烟雾从纸质杯盖与纸杯的缝隙间流窜出来时的模样居然真的有那么一点点像魔法哟？小孩咬着塑料餐叉，迫不及待地问：“好了吗好了吗？”<br>　　<br>　　“没有。”贤人坐回去，继续慢悠悠地翻书，“还要等一会呢。”<br>　　<br>　　“哦。”<br>　　<br>　　莲点点头，下一秒又说：“好了吗？”<br>　　<br>　　“没有。”<br>　　<br>　　“好了吗？”<br>　　<br>　　“没有。”<br>　　<br>　　“好了吗好了吗？”<br>　　<br>　　“……没有没有没有。”<br>　　<br>　　贤人简单算了算，这会这人就得问了七八遍“好了吗”了……只好掀开杯盖，他拿着叉子多戳了好几下，勉勉强强搅开面饼，没办法似的递了过去：“好了好了，虽然也没有太好……不过大概算是，好了吧？”<br>　　<br>　　莲马上就迫不及待接住纸杯，也不怕烫，大口大口吃起来。然而小半杯吃下去后他若有所思地抬头：“但是，贤人，面条好像有一点硬诶……是不是泡的还不够久啊？”<br>　　<br>　　“……揍你哦。”<br>　　<br>　　贤人没好气地戳了戳这小孩的脑门。<br>　　<br>　　6.<br>　　<br>　　2014年《为了N》在TBS金十档初放送，其中一名主演的名字是“贺来贤人”，那一年富加宫贤人十八岁。好几年没看电影啦，所以他在看到尾上亮递过来的两张电影票时还有些愣，后者于是就挠挠脑袋，不太好意思地说：本来是想带着小空看的来着，谁叫周末偏偏有任务呢！贤人啊，你就和莲或者伦太郎一起去电影院吧？就这样，尾上先生背着土豪剑激土，走了，剩下贤人一个人站在那里沉默地盯着薄薄的两张电影票……名字并没有听说过，也许是新近上映的。<br>　　<br>　　他很快记起来上一次好好地坐在电影院还是在他的十岁，三个人一起攒钱，拜托了飞羽真的祖父把他们带进去，挑的是什么实验性质的影片呢，同一个影厅里的其他人脸上都带着一副泡在梦里的表情。结果出来以后三个人的第一句话就是“好困”，第二句话是带着面面相觑的：什么啊。<br>　　<br>　　——谁都没看懂呀。<br>　　<br>　　想到这，富加宫贤人笑出了声。<br>　　<br>　　但是硬要说的话别的东西倒还是有在看的啦，不过是由三人变为一人而已。一、二、三、一，到头来只剩下他自己，虽然这是原点。<br>　　<br>　　伦太郎总在练剑，贤人生拉硬拽都扯不出来这人，所以另外的一张票理所应当地落在绯道莲头上，一进电影院还跑错影厅，两个人坐下来仓促地看了两分钟。贤人低声说，哇塞，尾上先生好摇滚，带小空看这种电影啊……莲说，不对吧，我看尾上先生想害我们。最后终于意识到尾上亮无论如何都不会叫两个未成年人来看这种血腥暴力的限制级电影——吧？！他们翻看影票，发现自己该去的地方其实在隔壁。<br>　　<br>　　“诶……等等。”<br>　　<br>　　神山飞羽真听着贤人东边一句西边一句散漫的聊天，突然回过神来，热巧克力杯子放置在桌沿的力度大了些：“贤人的什么时候去看的电影啊？在篝市哪一个电影院呢？”<br>　　<br>　　“嗯？啊……”富加宫贤人眨了眨眼，“就是，那个啊，小时候，我们常去的那家。”<br>　　<br>　　“这样……”<br>　　<br>　　飞羽真翻出一本厚厚的票根收藏集，都是按照年与月一页页排好了的，小说家先生总是喜欢整理这样那样的小玩意，就像是他自身的年轮一般，在他们不相识的十五年间尤甚。“贤人那天看到的那部电影是这个吗？”他抽出一张已经彻底泛黄了的电影票，墨蓝的印刷字迹非常沉重，似乎更接近刻进去的，“园子温的哦——这不就是我们现在在看的这部嘛。”<br>　　<br>　　他笑起来，电视机屏幕的光打在他的额头与鼻尖，好像被镀上的一层银边。<br>　　<br>　　“嗯？什么？等等——诶？”富加宫贤人接过电影票小心翼翼地检查了一遍……随后瞪大了眼睛，险些吃惊地喊起来，“那天我们在同一家电影院啊？！那为什么我没在影厅里看到飞羽真啊——”<br>　　<br>　　“因为我不小心走到你们原本要去的影厅的隔壁的隔壁啦……”<br>　　<br>　　飞羽真有些郁闷地说道。下一秒，他们都露出那样哭笑不得的表情：原来他们差一点就遇到。<br>　　<br>　　“嘛，也是没办法的事情。”神山飞羽真摊开双手叹了口气，总结式的口吻，“毕竟，在那以前，一切都是命运的安排嘛……”“命运”咬得很准。<br>　　<br>　　“是啊是啊，命运的安排。”贤人也笑着摇摇头，“不过……飞羽真，你那时候居然会看这样的电影啊？”<br>　　<br>　　“是因为很无聊啦很无聊。”飞羽真窝回了沙发里，慢吞吞地说，“贤人不知道我那个时候经常逃课的吧……然后整天在大街上逛，最后干脆就把电影院每天的排片表做成抽签箱子，抽到哪一部就去看哪部咯。”<br>　　<br>　　“……这也太无聊了吧？”<br>　　<br>　　“我大学保送了啊。”<br>　　<br>　　“等等等等等等，槽点有点多，一下子不知道从哪里开始吐槽……”贤人扶额，屏幕上恰好飞过血淋淋的一大片番茄酱，裸露出的断肢残面有点像草莓切片，他喝了口热的草莓牛奶，“那，飞羽真，其实说不定早在那以前我们就遇到了无数遍哦？”<br>　　<br>　　“嗯哼，我也是这么觉得的，毕竟，那个时候的我走路总是看着地面啊。”飞羽真轻松地说，“不过贤人现在看着蛮镇静的嘛……”<br>　　<br>　　“毕竟有点假。”贤人淡定地点评，“我是说，尸体什么的，血液什么的。”<br>　　<br>　　“……等等，好专业的感觉……”<br>　　<br>　　“因为在黑暗世界里看过了很多啊。”<br>　　<br>　　富加宫贤人非常平静地说了出来。<br>　　<br>　　想了想，他还补上一句，没想到事到如今他能够在聊起这些事情时笑出来：“虽然看久了有点像是在看主角被换上了飞羽真的脸的《死神来了》全系列……”<br>　　<br>　　“喂喂，不要用这种说法啊。”<br>　　<br>　　飞羽真揶揄着说道，之后是缄默，电视机所发出的声音渐渐地远去了……邻居家在教训小孩子的呵斥声传了过来，期间偶尔夹杂几声宠物狗的绯叫，听上去像是沸腾的汤锅。</p>
+<p>　　富加宫贤人旋即感觉到头顶的压力，神山飞羽真将手放在那里，掌心的温暖如此清晰、真切地传达到贤人的体表。<br>　　<br>　　“辛苦啦，”飞羽真说，“贤人。”<br>　　<br>　　“嗯。”<br>　　<br>　　他也摸了摸飞羽真的头顶，轻轻地说：“辛苦啦，飞羽真。”<br>　　<br>　　7.<br>　　<br>　　每次回基地都会有新的孩子缠住富加宫贤人要他讲故事，特别是，“拯救了世界”的雷之剑士的故事什么的——贤人只好发挥出常年同发小玩脑内妄想小剧场的演绎功底去满足他们无限期待的眼睛。偶尔他还紧急打电话给某人，说，大事不好啦，飞羽真！你快点过来帮我！接着等这人赶到后他一个猛扑！坚决不让故事主人公之一的家伙就这样找到机会溜掉。讲着讲着偶尔也会有些累，他和神山飞羽真吐槽：“怎么没有人想听听我当翻译家的故事啦？”飞羽真想了想，委婉地说，我觉得没有小朋友会想听贤人是怎么背法语词典背到凌晨五点然后崩溃的……<br>　　<br>　　“你没崩溃过哦？”贤人马上反问，当然问的是那位文学系的大学生神山飞羽真，“飞羽真难道没在半夜赶着老师的死线写过论文吗？”<br>　　<br>　　“啊，我不一样的。”<br>　　<br>　　神山飞羽真歪歪脑袋，满脸的纯良。<br>　　<br>　　“……哪里，”贤人被他闪亮亮的眼神卡了一下，“不一样啊？”<br>　　<br>　　“我一般凌晨三点就已经崩溃了……”<br>　　<br>　　富加宫贤人着手翻译起自己翻译生涯的第三本书时突然发现自己瞧着阳台上的神山飞羽真要半眯着眼了，紧急买来抗视疲劳眼药水滴了三天，未果。最后他只好在第三天的晚饭上放下了刚做好的盐烤竹荚鱼，沉痛地宣布：“飞羽真。”<br>　　<br>　　“嗯？”<br>　　<br>　　飞羽真叼着章鱼脚天妇罗抬头。<br>　　<br>　　“我好像，”他拉开椅子，“近视了。”<br>　　<br>　　“诶……”飞羽真倒是不大惊讶，反而非常愉悦地说，“那贤人不如我呀，你看，我这么多年都没近视呢。”<br>　　<br>　　“我记得某个家伙说自己以前天天逃课的哦……”贤人相当怨念地瞅着他。<br>　　<br>　　“哇，”飞羽真闻言，笑了，“贤人好可怕的眼神哦——那明天我陪贤人去配眼镜吧？刚好，好久没有一起出门逛逛啦……这两天我们不是在赶稿就是在准备赶稿啊。”<br>　　<br>　　“诶？飞羽真的新稿不是还没写完吗？”贤人往鱼皮表面挤上柠檬汁，“芽依那边，没问题？小心待会她又半夜杀到我们家门口猛拍门了噢……”<br>　　<br>　　“没事啦没事啦——啊，好酸！”飞羽真被筷尖沾上的柠檬汁酸得鼻子都皱了起来，连忙吞下米饭，含含糊糊地说，“昨天晚上……其实……我偷偷爬起来把稿子写完了。”<br>　　<br>　　“诶？”贤人干脆把沾了最多柠檬汁的那块鱼肉夹给他，“狡猾——”<br>　　<br>　　“等等等等，贤人不要报复我啊——反正写完了嘛！”<br>　　<br>　　飞羽真慌慌张张地盖住碗。<br>　　<br>　　验光的结果是轻度近视，度数在一百出头，所幸不太严重，必要的时候戴隐形也可以，主要是两个人对着一整家店的眼镜框的选择犯难。而且挑着挑着飞羽真自己先玩上了是怎么回事……这人戴着一副厚重的黑色塑胶镜框看他，严肃地说：“贤人，要不选这副吧？感觉戴着它翻稿子会有智商加成的说。”<br>　　<br>　　“……确定吗？”<br>　　<br>　　不幸的是贤人真的觉得都还可以……反正神山飞羽真的衣着审美远大于富加宫贤人的是众所周知的事……结果反而是飞羽真先缩缩脖子退却了：“喂喂，那个，请等一下啊，贤人……我是说着玩的啊！还是……啊！还是这个比较适合贤人哦？”<br>　　<br>　　一副金属框架的金色细边镜框被飞羽真推到了他的眼前。<br>　　<br>　　“咦？这种风格吗……”<br>　　<br>　　贤人从善如流，老老实实放下了先前的那副黑色塑胶镜框。可为什么他带上这副镜框的时候会感觉自己本来就应该是这样的呢？那么妥帖那么自然那么熟悉，他望着镜子，觉得，这简直就像是过去的他曾经看到过未来的这幕的剪影。而神山飞羽真站在镜面的角落望向他，说不清是在看他，还是在看镜中的那个“富加宫贤人”——飞羽真温和地说，对吧？很适合噢。<br>　　<br>　　回家的时候两个人经过了一间宠物店，傻乎乎的金毛犬端坐在橱窗里冲着来来往往的游人傻笑，神山飞羽真见了就半蹲在橱窗前逗了它好一会。但当血红的夕阳的光照过来……富加宫贤人突然感到了一点点的熟悉。<br>　　<br>　　8.<br>　　<br>　　富加宫贤人搬出过神山飞羽真家两次，搬回过神山飞羽真家一次。<br>　　<br>　　须藤芽依和新堂伦太郎吵了许多次。<br>　　<br>　　绯道莲一年偶尔还会回篝市三四次，当年不愿意学写汉字的小孩现在都考到驾照了。汽车的、摩托车的，都有。<br>　　<br>　　尾上先生当上了教师。<br>　　<br>　　大秦寺先生依旧锻着新圣剑，尤里和索菲亚大人依旧成天地拉着基地里的剑士们胡闹。那其中包括了神代兄妹。<br>　　<br>　　露娜还总是从奇幻世界过来找他们玩。<br>　　<br>　　有时也能看到父亲。<br>　　<br>　　…………<br>　　<br>　　时间静静流淌。<br>　　<br>　　“不知道在阅读这本书时读者是否能感受到它原本的魅力呢？不知道我能否将作者的心情切实地传达到读者的心中呢？我只希望，我能通过这样的方式构架起跨越语言障碍的桥梁，然后，让每一个人在最后，都能回想起自己人生中最重要的故事。”<br>　　<br>　　“哪怕是已经失落了的。”<br>　　<br>　　“祝愿您未来光明，幸福美满。”<br>　　<br>　　富加宫贤人敲打下了《失落记忆》纪念重制法语版译者后记的最后一个字，编辑好邮件，点击，发送。<br>　　<br>　　9.<br>　　<br>　　某天翻译家和小说家又出去瞎晃悠，经过商业街，意外地发现当年那家可乐饼门店竟还没倒闭，门前音箱里放的也还是那首吵吵闹闹的广告歌：<br>　　<br>　　“土豆——芝士——还有洋葱——”<br>　　<br>　　“这就是——”<br>　　<br>　　“美味好吃咔嗞咔嗞可乐饼的秘诀——”<br>　　<br>　　神山飞羽真就拉着富加宫贤人站在人店门口停了一会，末了笑起来，说，诶，不过真的挺好吃的……就是贤人拿给我的那时候都凉啦，外皮被水汽泡得很软烂。<br>　　<br>　　“那飞羽真就自己买啊。”贤人叹了口气，“那个时候啊，我可痛苦了——干嘛老是吵架嘛！露娜可比你小时候懂事很多哦。”<br>　　<br>　　“这不能比吧。”飞羽真还是笑。<br>　　<br>　　“我要把你这句话记下来，飞羽真，”贤人眯着眼睛，“下次见到露娜的时候我就和她告状。”<br>　　<br>　　“啊——我发现贤人你现在真是越来越坏了耶？”飞羽真抓了抓头发，露出格外为难的样子，“那……好吧好吧，我给贤人封口费，好不好？”<br>　　<br>　　“是什么？”<br>　　<br>　　“请你吃可乐饼。”<br>　　<br>　　“嗯……”贤人佯装思考了一会，最后，像是勉勉强强地答应了，“那，好吧。请我吃可乐饼哦。”<br>　　<br>　　排队时天上下起了小雨，他们干脆挤在店旁小小的雨棚下吃起来，可乐饼的蒸汽升腾，把贤人的眼镜都染成了雾蒙蒙的一片。在神山飞羽真的笑声中贤人只好把眼镜摘了……这下，整个世界都模糊为最纯粹的色块，那些色彩在交融、流淌，也像是贤人人生中所做过的第一个梦。<br>　　<br>　　——你说，这孩子的名字该叫什么呢？<br>　　<br>　　富加宫贤人的心里微微一动。<br>　　<br>　　他说：“啊，要不，效仿一下妈妈吧……”<br>　　<br>　　“什么？”飞羽真把脑袋歪过来，一侧翘起的发梢蹭到了贤人的耳廓，有些痒，“贤人说什么呢？”<br>　　<br>　　“我说，要不干脆效仿一下妈妈的方法吧？等我死了，墓碑上什么也不要刻。”贤人饶有兴致地说着。<br>　　<br>　　“诶？嘛，不过，”飞羽真点头，慢慢地笑起来，“听上去很有意思哦。”<br>　　<br>　　“是吧。”<br>　　<br>　　但过了一会，贤人又突然说：“不，不，我想，还是刻一句话比较好吧？”<br>　　<br>　　“那……贤人想要刻什么呢？”<br>　　<br>　　“就刻，”富加宫贤人笑着说，“在这里的人，度过了很长很好的一生。”</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://seii1115.github.io">十三日夜花</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://seii1115.github.io/2025/02/26/%E4%B8%8D%E5%99%A8%E7%94%A8/">https://seii1115.github.io/2025/02/26/%E4%B8%8D%E5%99%A8%E7%94%A8/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://seii1115.github.io" target="_blank">十三日夜花</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%AF%8C%E5%8A%A0%E5%AE%AB%E8%B4%A4%E4%BA%BA/">富加宫贤人</a></div><div class="post-share"><div class="social-share" data-image="/assets/head.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/03/01/%E8%8A%B1%E6%9D%9F%E8%88%AC%E7%9A%84/" title="【神芽】花束般的"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">【神芽】花束般的</div></div><div class="info-2"><div class="info-item-1">那是第七天，杂志社的附近开了花店。</div></div></div></a><a class="pagination-related" href="/2025/02/22/%E5%8F%98%E9%87%8F/" title="【神芽】50%救世主"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">【神芽】50%救世主</div></div><div class="info-2"><div class="info-item-1">半个救世主殿下。</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2024/08/19/%E4%B8%8Dooxx%E5%B0%B1%E5%87%BA%E4%B8%8D%E5%8E%BB%E7%9A%84%E6%88%BF%E9%97%B4/" title="【贤伦贤】不〇〇××就出不去的房间"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-19</div><div class="info-item-2">【贤伦贤】不〇〇××就出不去的房间</div></div><div class="info-2"><div class="info-item-1">被迫发生关系的、毫无浪漫倾向的二人。</div></div></div></a><a class="pagination-related" href="/2024/08/09/%E8%B7%9D%E7%A6%BB/" title="【羽贤】距离"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-09</div><div class="info-item-2">【羽贤】距离</div></div><div class="info-2"><div class="info-item-1">“你知道做孤独的鸟的五个条件吗？”</div></div></div></a><a class="pagination-related" href="/2024/11/02/%E8%BD%A6%E7%AB%99/" title="【贤莲】车站"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-02</div><div class="info-item-2">【贤莲】车站</div></div><div class="info-2"><div class="info-item-1">车站的风景。</div></div></div></a><a class="pagination-related" href="/2024/12/24/%E7%89%B9%E6%AE%8A%E6%97%A5/" title="【羽贤】特殊日"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-24</div><div class="info-item-2">【羽贤】特殊日</div></div><div class="info-2"><div class="info-item-1">特别的一天。</div></div></div></a><a class="pagination-related" href="/2024/11/04/%E5%A4%A9%E5%9B%BD%E8%88%AA%E8%A1%8C%E6%97%A5%E5%BF%97/" title="【羽贤】天国航行日志"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-04</div><div class="info-item-2">【羽贤】天国航行日志</div></div><div class="info-2"><div class="info-item-1">“我梦到了，”他喃喃道，“天国。”</div></div></div></a><a class="pagination-related" href="/2025/02/02/%E4%BA%BA%E9%96%93%E8%AF%BE/" title="【羽贤莲】人間课"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-02-02</div><div class="info-item-2">【羽贤莲】人間课</div></div><div class="info-2"><div class="info-item-1">什么是爱呢？</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">十三日夜花</div><div class="author-info-description">我们在非常寂静的松树林里走着。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">102</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://weibo.com/u/7947067016"><i class="fab fa-weibo"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/23/%E8%8B%8D%E4%B9%8B%E6%A3%AE%E6%9E%97%E7%9A%84%E5%8D%A0%E5%8D%9C%E9%AD%94%E5%A5%B3/" title="【手芝】苍之森林的占卜魔女">【手芝】苍之森林的占卜魔女</a><time datetime="2026-10-22T16:00:00.000Z" title="发表于 2026-10-23 00:00:00">2026-10-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/20/%E8%B0%A8%E9%98%B2%E5%B0%81%E5%BB%BA%E8%BF%B7%E4%BF%A1/" title="【北海北】谨防封建迷信">【北海北】谨防封建迷信</a><time datetime="2026-10-19T16:00:00.000Z" title="发表于 2026-10-20 00:00:00">2026-10-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/19/%E6%82%A0%E9%95%BF%E5%81%87%E6%9C%9F/" title="【海莲】悠长假期">【海莲】悠长假期</a><time datetime="2026-10-18T16:00:00.000Z" title="发表于 2026-10-19 00:00:00">2026-10-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/04/%E8%BF%87%E6%98%A5%E5%A4%A9/" title="【律警】关于得罪黑社会好像就会被〇〇的事">【律警】关于得罪黑社会好像就会被〇〇的事</a><time datetime="2026-10-03T16:00:00.000Z" title="发表于 2026-10-04 00:00:00">2026-10-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/09/28/%E5%8D%A1%E7%8E%9B/" title="【律警】卡玛">【律警】卡玛</a><time datetime="2026-09-27T16:00:00.000Z" title="发表于 2026-09-28 00:00:00">2026-09-28</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 十三日夜花</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.0</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script src="/js/rain.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章标题" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.0"></script></div></div></body></html>

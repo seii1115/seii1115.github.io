@@ -1,0 +1,207 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>【羽父子】雨伞 | 十三日夜花</title><meta name="author" content="十三日夜花"><meta name="copyright" content="十三日夜花"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="新雨伞。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【羽父子】雨伞">
+<meta property="og:url" content="https://seii1115.github.io/2025/03/11/%E9%9B%A8%E4%BC%9E/index.html">
+<meta property="og:site_name" content="十三日夜花">
+<meta property="og:description" content="新雨伞。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://seii1115.github.io/assets/head.png">
+<meta property="article:published_time" content="2025-03-10T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-10-28T15:34:50.487Z">
+<meta property="article:author" content="十三日夜花">
+<meta property="article:tag" content="小陆">
+<meta property="article:tag" content="神山飞羽真">
+<meta property="article:tag" content="羽父子">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://seii1115.github.io/assets/head.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "【羽父子】雨伞",
+  "url": "https://seii1115.github.io/2025/03/11/%E9%9B%A8%E4%BC%9E/",
+  "image": "https://seii1115.github.io/assets/head.png",
+  "datePublished": "2025-03-10T16:00:00.000Z",
+  "dateModified": "2026-10-28T15:34:50.487Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "十三日夜花",
+      "url": "https://seii1115.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://seii1115.github.io/2025/03/11/%E9%9B%A8%E4%BC%9E/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=5.7.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":true,"pagination":{"enable":true,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【羽父子】雨伞',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap"><style>#site-subtitle{font-size:.9em!important}@media screen and (min-width:768px){#site-subtitle{font-size:1.2em!important}}</style><style>@media screen and (max-width:768px){#nav #search-button .search>i{font-size:1.3em}}</style><style>@media screen and (max-width:768px){#post-meta>.meta-firstline,#post-meta>.meta-secondline{display:block!important}#post-meta span.post-meta-tags{display:block!important}#post-meta span.post-meta-tags>.post-meta-separator:first-child,#post-meta>.meta-secondline>.post-meta-separator:first-child{display:none!important}}</style><meta name="generator" content="Hexo 8.1.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">102</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">十三日夜花</span></a><a class="nav-page-title" href="/"><span class="site-name">【羽父子】雨伞</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">【羽父子】雨伞</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2025-03-10T16:00:00.000Z" title="发表于 2025-03-11 00:00:00">2025-03-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%81%87%E9%9D%A2%E9%AA%91%E5%A3%AB%E5%9C%A3%E5%88%83/">假面骑士圣刃</a></span><span class="post-meta-tags"><span class="post-meta-separator">|</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E7%A5%9E%E5%B1%B1%E9%A3%9E%E7%BE%BD%E7%9C%9F/">神山飞羽真</a><span class="post-meta-separator">•</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E7%BE%BD%E7%88%B6%E5%AD%90/">羽父子</a><span class="post-meta-separator">•</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E5%B0%8F%E9%99%86/">小陆</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">1271</span></span></div></div></div><article class="container post-content" id="article-container"><p>　　篝市最近连日的雨天，满街头都是颜色纹路差不多的雨伞，从天空中朝下一望，人人就都有着一张一模一样示人的脸了。而小陆这几天撑伞去上学，也是和大家差不多的透明小雨伞，结果有天就不小心被人拿了，只好在幼稚园门口等着神山飞羽真来接。远远的，能够看到毛绒绒的金毛犬不断地甩着脑袋上的水，领养了他的那个人撑着的那把伞也很朴素，是素色的格子伞，同对方身上的衣服相搭。“小陆！”飞羽真喊了一声，朝他摆摆手，Lucky就马上冲到他的脚边亲昵地蹭着他的裤腿，雨水十分寒冷，但Lucky的皮毛是滚烫的。<br>　　<br>　　“嗯，好的，谢谢您……”神山飞羽真温和地朝老师道谢，小陆的右手牵着Lucky，左手被飞羽真的手掌宽松地裹住，“嘛，难得出来一趟，我和小陆一起去外面吃饭，好不好？然后，我们去买新雨伞。”说这话时飞羽真是瞧着孩子的眼睛的，不知道从什么时候起小说家开始习惯弯腰。<br>　　<br>　　——好哦。<br>　　<br>　　小陆轻轻地点头，神山飞羽真笑起来，Lucky一个劲地吐舌头。在回家以后，小陆会在日记上写今天所发生的一切事情的，比如：“今天和……去了家庭餐厅吃饭。那里的蛋糕很好吃。”有个名字留了空，先是写的神山先生，涂掉，改成飞羽真，再涂掉，轻轻地描上“爸爸”的字样，又涂。改来改去，他还是写，飞羽真。<br>　　<br>　　卖雨伞的店铺里款式众多，当然最热销的仍旧是透明塑料伞面款，接下来是各种各样颜色淡雅的款式，小陆从很小就知道“合群”的重要性。那时候在孤儿院，带着狗的孩子只有他一个，有时lucky会被故意引到他找不到的地方，好久才找回来。<br>　　<br>　　所以小陆轻轻拉着飞羽真的袖子，很快选中一把最简单最普通的，指给他看，飞羽真总能明白他的意思，问，是吗？那就这个了哦。小陆这时就想：飞羽真好像Lucky。又觉得这个比喻怪怪的，盯着雨伞，偷偷地，咧了咧嘴。两个人一起去柜台结账，不过，小陆突然看到了柜台旁边挂着的几把伞，也是透明的伞面，区别在于，上面多出了许多漂亮的涂鸦。有画着狮子的……神灯的……龙的……还有，画着金毛犬的。画得很像Lucky。<br>　　<br>　　小陆忍不住多看了一眼，随即视线就被那些鲜艳的线条黏住了，他不由自主地一直看一直看。<br>　　<br>　　“诶？”<br>　　<br>　　飞羽真的声音从他头顶落下来，然后，神山飞羽真整个人都蹲下来，电梯似的，又或者是小陆总听他讲的故事里的龙？巨大的龙遇到了冒险中的小孩，将脖子垂下来，鲜红色的眼睛倒映出人类的样子。飞羽真笑着说：“小陆是想要这个吗？对不对？”<br>　　<br>　　小陆犹豫了很久很久，先点头，再摇头。<br>　　<br>　　“为什么不呢？”<br>　　<br>　　因为。他在飞羽真的掌心写字：“太显眼了。”<br>　　<br>　　“这样啊……”神山飞羽真低头看他在掌心写出的字，歪歪脑袋，别开眼睛对着雨伞们发呆，格外认真的表情，“那这的确是一个问题呢。”<br>　　<br>　　嗯。小陆缩回了手，想要去够放在柜台上的、还未结账的透明雨伞，那才是最适合他的雨伞，尽管，不是他喜欢的。<br>　　<br>　　“哈，我想到了。”<br>　　<br>　　但飞羽真却发出了笑声。他从放置着相同款式的涂鸦雨伞的桶中抽出了两把，一把大的，一把小的，接着笑眯眯地与店员说：“抱歉，我们要这两把吧，谢谢。”<br>　　<br>　　小陆不明白，他瞪大了眼睛。<br>　　<br>　　“因为，两个人一起撑，就不会太显眼了嘛。”<br>　　<br>　　飞羽真温柔地摸摸他的脑袋：“我们一起。”</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://seii1115.github.io">十三日夜花</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://seii1115.github.io/2025/03/11/%E9%9B%A8%E4%BC%9E/">https://seii1115.github.io/2025/03/11/%E9%9B%A8%E4%BC%9E/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://seii1115.github.io" target="_blank">十三日夜花</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%A5%9E%E5%B1%B1%E9%A3%9E%E7%BE%BD%E7%9C%9F/">神山飞羽真</a><a class="post-meta__tags" href="/tags/%E7%BE%BD%E7%88%B6%E5%AD%90/">羽父子</a><a class="post-meta__tags" href="/tags/%E5%B0%8F%E9%99%86/">小陆</a></div><div class="post-share"><div class="social-share" data-image="/assets/head.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/03/17/%E6%99%9A%E6%A8%B1/" title="【伦中心】晚樱"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">【伦中心】晚樱</div></div><div class="info-2"><div class="info-item-1">“我记得它已经很多年都不开花啦，不知道是为什么。”</div></div></div></a><a class="pagination-related" href="/2025/03/11/%E7%BC%96%E7%BB%87%E7%89%A9/" title="【芽花】编织物"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">【芽花】编织物</div></div><div class="info-2"><div class="info-item-1">不过，或许存在着另外一种可能：正因为生命过于短暂，才失去了对外交往的机会。</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2024/12/04/%E6%84%BF%E6%9C%9B%E5%85%91%E5%A5%96%E5%88%B8/" title="【羽父子】愿望兑奖券"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-04</div><div class="info-item-2">【羽父子】愿望兑奖券</div></div><div class="info-2"><div class="info-item-1">给那孩子的。</div></div></div></a><a class="pagination-related" href="/2024/11/27/%E8%87%B4%E6%81%8B%E4%BA%BA/" title="【神芽】致恋人"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-27</div><div class="info-item-2">【神芽】致恋人</div></div><div class="info-2"><div class="info-item-1">“在小芽依拉我去喝酒之前，先陪我去看电影吧？”</div></div></div></a><a class="pagination-related" href="/2024/10/29/%E4%BE%BF%E5%88%A9%E5%BA%97/" title="【羽中心】奇遇"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-29</div><div class="info-item-2">【羽中心】奇遇</div></div><div class="info-2"><div class="info-item-1">故事开始以前的故事。</div></div></div></a><a class="pagination-related" href="/2025/02/13/%E7%99%BD%E8%89%B2%E9%97%AA%E7%94%B5/" title="【羽露】白色闪电"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-02-13</div><div class="info-item-2">【羽露】白色闪电</div></div><div class="info-2"><div class="info-item-1">图书馆中的白色的幽灵。</div></div></div></a><a class="pagination-related" href="/2025/01/07/%E9%87%8E%E6%9C%9B/" title="【羽乌】野望"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-07</div><div class="info-item-2">【羽乌】野望</div></div><div class="info-2"><div class="info-item-1">只有你灼烧的心脏，再无其他。</div></div></div></a><a class="pagination-related" href="/2024/08/12/%E8%AF%80%E5%88%AB%E4%B9%A6/" title="【Saber全员】诀别书"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-12</div><div class="info-item-2">【Saber全员】诀别书</div></div><div class="info-2"><div class="info-item-1">“但离别也无法避免地会成为生命末尾习以为常的存在吧……这时，时间就要离开了。”</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">十三日夜花</div><div class="author-info-description">我们在非常寂静的松树林里走着。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">102</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://weibo.com/u/7947067016"><i class="fab fa-weibo"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/23/%E8%8B%8D%E4%B9%8B%E6%A3%AE%E6%9E%97%E7%9A%84%E5%8D%A0%E5%8D%9C%E9%AD%94%E5%A5%B3/" title="【手芝】苍之森林的占卜魔女">【手芝】苍之森林的占卜魔女</a><time datetime="2026-10-22T16:00:00.000Z" title="发表于 2026-10-23 00:00:00">2026-10-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/20/%E8%B0%A8%E9%98%B2%E5%B0%81%E5%BB%BA%E8%BF%B7%E4%BF%A1/" title="【北海北】谨防封建迷信">【北海北】谨防封建迷信</a><time datetime="2026-10-19T16:00:00.000Z" title="发表于 2026-10-20 00:00:00">2026-10-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/19/%E6%82%A0%E9%95%BF%E5%81%87%E6%9C%9F/" title="【海莲】悠长假期">【海莲】悠长假期</a><time datetime="2026-10-18T16:00:00.000Z" title="发表于 2026-10-19 00:00:00">2026-10-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/04/%E8%BF%87%E6%98%A5%E5%A4%A9/" title="【律警】关于得罪黑社会好像就会被〇〇的事">【律警】关于得罪黑社会好像就会被〇〇的事</a><time datetime="2026-10-03T16:00:00.000Z" title="发表于 2026-10-04 00:00:00">2026-10-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/09/28/%E5%8D%A1%E7%8E%9B/" title="【律警】卡玛">【律警】卡玛</a><time datetime="2026-09-27T16:00:00.000Z" title="发表于 2026-09-28 00:00:00">2026-09-28</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 十三日夜花</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.0</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script src="/js/rain.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章标题" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.0"></script></div></div></body></html>

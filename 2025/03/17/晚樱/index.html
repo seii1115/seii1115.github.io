@@ -1,0 +1,350 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>【伦中心】晚樱 | 十三日夜花</title><meta name="author" content="十三日夜花"><meta name="copyright" content="十三日夜花"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="“我记得它已经很多年都不开花啦，不知道是为什么。”">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【伦中心】晚樱">
+<meta property="og:url" content="https://seii1115.github.io/2025/03/17/%E6%99%9A%E6%A8%B1/index.html">
+<meta property="og:site_name" content="十三日夜花">
+<meta property="og:description" content="“我记得它已经很多年都不开花啦，不知道是为什么。”">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://seii1115.github.io/assets/head.png">
+<meta property="article:published_time" content="2025-03-16T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-10-28T15:41:00.557Z">
+<meta property="article:author" content="十三日夜花">
+<meta property="article:tag" content="新堂伦太郎">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://seii1115.github.io/assets/head.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "【伦中心】晚樱",
+  "url": "https://seii1115.github.io/2025/03/17/%E6%99%9A%E6%A8%B1/",
+  "image": "https://seii1115.github.io/assets/head.png",
+  "datePublished": "2025-03-16T16:00:00.000Z",
+  "dateModified": "2026-10-28T15:41:00.557Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "十三日夜花",
+      "url": "https://seii1115.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://seii1115.github.io/2025/03/17/%E6%99%9A%E6%A8%B1/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=5.7.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":true,"pagination":{"enable":true,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【伦中心】晚樱',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap"><style>#site-subtitle{font-size:.9em!important}@media screen and (min-width:768px){#site-subtitle{font-size:1.2em!important}}</style><style>@media screen and (max-width:768px){#nav #search-button .search>i{font-size:1.3em}}</style><style>@media screen and (max-width:768px){#post-meta>.meta-firstline,#post-meta>.meta-secondline{display:block!important}#post-meta span.post-meta-tags{display:block!important}#post-meta span.post-meta-tags>.post-meta-separator:first-child,#post-meta>.meta-secondline>.post-meta-separator:first-child{display:none!important}}</style><meta name="generator" content="Hexo 8.1.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">102</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">十三日夜花</span></a><a class="nav-page-title" href="/"><span class="site-name">【伦中心】晚樱</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">【伦中心】晚樱</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2025-03-16T16:00:00.000Z" title="发表于 2025-03-17 00:00:00">2025-03-17</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%81%87%E9%9D%A2%E9%AA%91%E5%A3%AB%E5%9C%A3%E5%88%83/">假面骑士圣刃</a></span><span class="post-meta-tags"><span class="post-meta-separator">|</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E6%96%B0%E5%A0%82%E4%BC%A6%E5%A4%AA%E9%83%8E/">新堂伦太郎</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">7180</span></span></div></div></div><article class="container post-content" id="article-container"><p>　　1.</p>
+<p>　　阴雨连绵的日子并不多么适合读书，以往整堂国文课下来能坚持得住的也就剩下新堂伦太郎了，可他今日却睡着觉。富加宫贤人与神山飞羽真则躲在最后一排的课桌边上翻着刚借来的侦探小说，正巧到精彩时，只是那头的绯道莲不情不愿地咳了一声，吓得他们即刻将腰杆挺得笔直。两人是不忘一齐踹一脚前桌的——砰！然而，后果是，伦太郎给惊得一个激灵蹦起来了，不慎将手边的课本掀翻，于是同满屋子的同学和恰走到他跟前的国文老师面面相觑。</p>
+<p>　　“我……”</p>
+<p>　　一向以乖巧著称的好学生新堂伦太郎就这么涨红了脸。他憋了好一会，低下头，小声地说：“我做噩梦……”</p>
+<p>　　接着，是一阵陡然间轰炸开来的哄笑声。</p>
+<p>　　可在油锅似的热烈气氛中素来极严苛的白胡子老头只是拍了拍伦太郎的肩……他慢吞吞地说，坐下吧。也没苛责太多，一个转身，走了。绯道莲便找准时机抽起了飞到他脚边的伦太郎的书，扔回去，很有点诧异地朝他们嘀咕：“咦？伦太郎，你是有那老家伙的什么把柄吗？他居然——”</p>
+<p>　　“不对，话又说回来。”</p>
+<p>　　末了他撑着脸，瞪大了眼睛：“说起来为什么今天在课上睡觉的人变成伦太郎你了呢？是不是有哪里不太对？”</p>
+<p>　　但新堂伦太郎有些昏昏沉沉的……说不清话，这时飞羽真就和贤人对视了一眼，后者示意这岛外来的孩子别说了：“莲，老师来了哟？”况且说到底这一切又还能因为什么呢——能让“那个”伦太郎放弃学习的，无非，是关乎他家里的事情的啊。关于伦太郎的师父长岭谦信的。</p>
+<p>　　听说那个好脾气的宽厚男人新近住了院，在岛外的病院，伦太郎每日赶最晚的一班船出去照顾对方，又赶最早的一班船回来。飞羽真将自己的脚踏车都借给了他。近来天不亮时人人都能在码头听到神山飞羽真的脚踏车的吱呀声，车上，新堂伦太郎疲倦不堪地蹬到了学校，书包拍打着他后背，随着道路起伏，发出噼里啪啦的声响。有时遇到相熟的几个年长岛民还能收获硬塞过来的早餐一份：伦太郎从小就学习着师父乐于助人的习惯什么的，谁都知道可以找他们俩帮忙。</p>
+<p>　　“伦太郎——嗯？”</p>
+<p>　　“……看来还没睡够啊……”</p>
+<p>　　“那，我们去给伦太郎你带午餐的炒面面包回来哦？”</p>
+<p>　　好。</p>
+<p>　　伦太郎不记得他有没有开口说过话了，他只是静静地睡着、睡着，在梦里思考晚上要去为昏睡中的师父做些什么。病人不能吃太咸的、太油腻的东西，他就想他或许可以带些紫菜与青瓜去？看上去比较好入口。又想到他其实是知道国文老师为什么放了他一马的：在某一个长长的夜晚，缴费时，他在门诊的大厅遇到了一个人来看病的那位老人。</p>
+<p>　　“您……”伦太郎提着饭盒，犹豫了片刻，最终还是小心翼翼地开口，“生病了吗？您为什么在这里呢？”</p>
+<p>　　国文老师看他一眼，却没说话，晚间昏沉的灯光照着他皱纹交错的脸庞更衰老了。不过有一件事倒是懵懵懂懂的新堂伦太郎能确定的，那就是，出现在这里的病人，未来都不会太美好。</p>
+<p>　　“好好休息。”</p>
+<p>　　所以老头子只言简意赅地这么说着。</p>
+<p>　　新堂伦太郎终于睁开眼睛的那会发现了压在桌角的炒面面包，还有一盒巧克力味道的牛奶，上边贴了便签，字迹涂得乱七八糟的，都认不出究竟哪行是谁写的。反正角落里的那团涂鸦肯定是飞羽真画的啦，那墨绿色的划线，或许是莲？其中最清晰最端正的想当然是贤人的字迹：“伦太郎，我爸爸说今晚和你一起过去。”</p>
+<p>　　下课铃声响了起来，伦太郎将喝干净了的牛奶盒子扔进了垃圾桶里。</p>
+<p>　　2.</p>
+<p>　　老实说冷掉了的炒面面包并不好吃，油脂都凝结了，化在舌头上的感觉像胶水，可伦太郎也没有多余的钱去买别的什么东西了啊，自己做的饭是带给师父的，他只好坐在售卖饭团与陪护便当的自动贩卖机前望着解解馋。虽然要是他开口了的话贤人的父亲一定会慷慨地请他吃一顿的吧……但他就是不好意思开口，也不好意思说：他买下两张船票的，已经就是他每天能够拿出来的全部零花钱了。</p>
+<p>　　一个看上去年纪同他差不多的女孩买下了两盒便当，都是热的，空气中散发出带着好闻气味的白汽，新堂伦太郎认识她身上的那身制服来自城市中的某所私立高中，她隔着一个座位坐到了伦太郎坐在的长椅的另一端。</p>
+<p>　　“诶——”</p>
+<p>　　女孩打着电话：“什么啊？你要走了吗？可是我才刚刚买下两盒便当耶……啊啊，真是的！下次就早一点告诉我啊。”</p>
+<p>　　说着说着她生起气来，手机下悬挂有亮晶晶的挂饰，是小狮子的形状，它在随着对方的语气不停地晃动。而电话挂断以后她抱着两盒便当对着售货机的亮光发了会呆，突然扭头，很干脆利落地递过来一盒：“呐，这位小哥，我说，就给你吧？”</p>
+<p>　　“……什么？”</p>
+<p>　　伦太郎茫然地张了张嘴。</p>
+<p>　　“你看，我自己一个人可吃不了那么多啊，而且你是看着我从贩卖机里拿出来的吧？”女孩晃了晃脑袋，说的头头是道，“要是直接扔掉的话，很浪费诶？”</p>
+<p>　　“话是这么说啦……”便当盒的温度熨着伦太郎的掌心，他笨拙地说道。</p>
+<p>　　“所以加油啦，”女孩挥了挥拳头，蹦起来，“你现在可是保卫地球食品不被浪费的卫士噢——努力吃完它吧！”</p>
+<p>　　还没等伦太郎回答女孩就一溜烟跑了，他只来得及看到她胸前名牌的一点点：须藤……什么的？再多的就看不清了。总之热乎乎的便当的确很好吃，伦太郎甚至吃得几欲热泪盈眶起来。</p>
+<p>　　贤人的父亲去同医生进行进一步的商谈了，新堂伦太郎得以进入了师父的病房。之所以称呼对方为“师父”是因为长岭先生是岛上的木匠，那年他见到了襁褓中的伦太郎，并将婴儿带回了岛上，从此伦太郎就跟着他学木匠手艺，叫他师父。可惜的是小学起师父就不让他学了，说是，好好读书比这要强得多。师父难得清醒着，坐在一片鹅黄的灯光中看他。</p>
+<p>　　“伦太郎。”长岭谦信笑着说。</p>
+<p>　　“师父。”</p>
+<p>　　轻轻的，他点头答应道。</p>
+<p>　　师父的病名很复杂，具体的伦太郎听不太懂，只清楚这是一种要花上很多很多钱也很难治好的病，刚得知这个消息的时候他甚至没哭，因为太茫然。他就这样老实地坐在病床边给满脸倦容的男人削苹果，一边削一边说：“师父你今天看上去精神很好。”</p>
+<p>　　“听说伦太郎每天晚上都来照顾我？”但师父绕开了他的话，温柔地说，“真是辛苦了哟。”</p>
+<p>　　好险。苹果皮险些削断。</p>
+<p>　　伦太郎顿了顿，将刀刃转了转，跟刨木花似的，重新削起苹果，声音有种刻意的平静：“不辛苦啊，就只是给师父翻身、擦身体什么的……不辛苦。”</p>
+<p>　　“伦太郎明年这个时候就要高中毕业了吧？”长岭谦信眯起了眼，“想好去哪个大学了吗？”</p>
+<p>　　“啊……”伦太郎听了就以肉眼可见的速度蔫吧了下去，“那个……”</p>
+<p>　　“怎么了？”师父笑笑，“最近的考试没考好吗？没有关系的啊。我知道咱们家伦太郎是个优秀的好学生哦。”</p>
+<p>　　“那个……”</p>
+<p>　　他的头越来越低了，刀尖扎在苹果的果肉里。他该怎么告诉师父说自己不想走呢？要是去上了大学，那就得去很远很远、很远很远的地方了吧，甚至，和自己被抱来的地方一样远。</p>
+<p>　　咔嚓。苹果被新堂伦太郎切好了。他干巴着嗓子说：</p>
+<p>　　“……我觉得，做个木匠也很好。”</p>
+<p>　　“那也得做一个城市里的木匠啊，是不是？”</p>
+<p>　　可师父的声音更平静、更温柔：“不可以耽误学习呀。我还想着有朝一日能去东京看你呢，伦太郎。”</p>
+<p>　　“诶？东京？我考不上东大的啦……”</p>
+<p>　　这样喃喃说着，伦太郎一面把切好了的苹果碟子往师父手底下塞。只是师父并不接，以一种残忍重复了一遍：“伦太郎，你可不能因为这个，就选择留在岛上，明白吗？”</p>
+<p>　　“我……”</p>
+<p>　　连续一个多月都缺乏睡眠的困劲漫上来了，伦太郎使劲睁大了眼睛，咽了口唾液，说，我知道。</p>
+<p>　　“伦太郎知道就好啦。”</p>
+<p>　　长岭谦信又笑了：“家门前的那棵樱花树，今年开花了吗？”</p>
+<p>　　“没有。”伦太郎摇摇头，“它只长叶子。我记得它已经很多年都不开花啦，不知道是为什么。”</p>
+<p>　　“它只是没睡醒吧？”</p>
+<p>　　长岭谦信歪着脑袋，像是在对伦太郎说话，又像是在喃喃自语。渐渐渐渐的，他再一次地睡着了，病房里只剩下仪器轻微的滴答声。</p>
+<p>　　“伦太郎，我们走吧？”贤人的父亲这时候走了进来，轻柔的，他拍打了一下伦太郎的背，“该回去上学了。”</p>
+<p>　　“嗯，好，师父记得吃苹果。”</p>
+<p>　　伦太郎只好有些无措地放下了水果刀，蔫吧着，埋下了脑袋。刚刚吃的热乎乎的便当还在发挥效力，当他走上第一班船时，清晨的太阳从小岛的那头升起。</p>
+<p>　　可新堂伦太郎忽然就觉得非常难过。</p>
+<p>　　3.</p>
+<p>　　早出晚归的灾难性后果比起身体更先一步地体现在了学习上，即使飞羽真和贤人硬拉着莲在考前一个劲玩命地给某人补习也没补回来……伦太郎的月考排名就这么掉落到了一个令人惊诧的位置上。一整天都有老师来叫他去办公室，开头往往是：“伦太郎，老师知道你现在的家庭状况……”而结尾是：“可是，也不能耽误了学习呀！”搞得伦太郎甚至都没办法补觉了。</p>
+<p>　　又是午餐，他感到自己被谁摇了起来，一睁眼，是那三人站在自己的眼前：神山飞羽真、富加宫贤人和绯道莲。</p>
+<p>　　“怎么……了？”</p>
+<p>　　他困倦地揉着眼睛。</p>
+<p>　　“那个啊，伦太郎，”飞羽真摸了摸自己的发梢，讪笑着，像是在思考些什么，一贯口齿伶俐的家伙竟然也有磕磕绊绊的这一天，“我们几个人商量了一遍哦？你看，我和贤人总是喜欢跑到岛外面去玩嘛，而且，如果大家轮流着来，你也不会那么费劲……”</p>
+<p>　　“对啊对啊。”贤人连忙替发小附和道，“所以，就这样做吧！大家轮流来嘛，不会很麻烦的啦，反正我和飞羽真也喜欢去外边——”</p>
+<p>　　“什么？”</p>
+<p>　　可惜的是伦太郎认真地听了半天也没听懂，只能困惑地、迷茫地歪歪脑袋：“你们在说什么和什么哦……”</p>
+<p>　　“意思就是！”</p>
+<p>　　到头来倒是莲先忍不了了，没好气地瞧瞧身边这俩人，单手撑在伦太郎的课桌面，另一只手摊开：“我们三个，再加上伦太郎你，我们轮流去照看你师父啦……总不能一直这样下去吧？伦太郎会病倒的吧。”</p>
+<p>　　“我……”</p>
+<p>　　伦太郎话音未落，没想到一扭头，结结实实地，他打了个喷嚏。</p>
+<p>　　“……对吧？”</p>
+<p>　　幼驯染组合转而无奈地瞧了彼此一眼，再看看他，都伸手按住他肩膀，掌心是极温暖的，也像是那天怀里的便当，热量透过衣物与皮肤源源不断地传过来、传过来。接着神山飞羽真“啪”的一下将双手合十了，十分恳切地说，所以，拜托了！伦太郎！让我们来帮你吧——富加宫贤人也说，对哦，说的没错呀，毕竟，我们可是朋友呢。从小到大的那种啊，伦太郎。</p>
+<p>　　因此这个故事就是这么开始的……并且，任课老师们惊异地发现，这个四人的组合像是中了什么魔咒，总之就是无法同时都保持醒着的状态，又相互打着掩护，总也不能被人抓到。不过好在成绩没有下滑就好啦，身为老古董的国文老师似乎也为了这个对他们格外的宽容。偶尔周末在病院都聚在一起，夏天到了，他们就都蹲在天台上放烟花，连同隔壁病房陪床的女高中生都加入进来，金属的线香烧啊烧、烧啊烧。</p>
+<p>　　“那么大家以后都想干些什么呢？”</p>
+<p>　　神山飞羽真蹲在地上，嘀咕了一句，还全神贯注地盯着金属细丝顶端扎开的火花，他的眼睛被闪耀的光芒照成十分明亮的样子：“我啊，可是想成为小说家的哦——”</p>
+<p>　　“那我就去做翻译家吧？”富加宫贤人笑着说，转了转手上的烟火，那些火光拉扯出来的线条就像是纸上静静等待着转译的密码，“以后，飞羽真写，我就可以帮你出版到海外啦。”</p>
+<p>　　“没劲……”绯道莲捧着脸，很没好气地蹲在那两个人的对面，他的头发是新剪过的，乱七八糟，也跟刺猬一般，竖着，他手中的线香早烧完了，“干什么都好啦，反正我才不要继续呆在这里呢。我想去东京。”</p>
+<p>　　“……或者，和贤人读一样的大学，也不错。”</p>
+<p>　　想了想，他又别扭地补上一句。</p>
+<p>　　“喔——”</p>
+<p>　　飞羽真马上就起哄，气得莲要追着他打，富加宫贤人却被夹在了这两个幼稚鬼的中间，看看天看看地，最终，流露出来的是一副相当无奈的表情。名为“须藤芽依”的女孩抽出了最后的一根烟火，伸过来，突然气势汹汹地喊：“——我要成为时尚杂志的编辑啊编辑！！！”那架势，好险没把新堂伦太郎给吓一跳。</p>
+<p>　　“看什么看啦，”下一秒她对他皱皱鼻子，又眨巴眨巴眼，很灿烂的，她笑起来，两颊的肌肉鼓鼓的，让伦太郎想起小时候养过的仓鼠在吃东西，“伦太郎帮我点火啦，谢谢你哦。”</p>
+<p>　　打火机放在新堂伦太郎的脚边。他照做了。烟火噼里啪啦地燃烧。</p>
+<p>　　“所以，伦太郎以后想做些什么呢？”</p>
+<p>　　那头还在打闹，芽依抱着裸露的膝盖，问他。水手服的水色裙摆在地面堆叠成一圈圈柔软的涟漪。</p>
+<p>　　新堂伦太郎闻言想了好久好久，摇摇头，说：</p>
+<p>　　“我不知道……”</p>
+<p>　　说到底新堂伦太郎又觉得自己能够做些什么呢？木匠、科学家、上班族，或是别的什么？努力对于他而言只是一种习惯而已啦，并不意味着某种遥远或者不太遥远的目标。想着想着他还罕见地带上了那种迷惘的眼神，可是下一秒须藤芽依戳了戳他，幽幽地说，伦太郎，你就要烧到手喽……虽然等他回过神来的时候已经被烧到了，从小捉着刨子与推刀的粗糙指腹上留下了一阵阵灼热的痕迹，他也说不清自己是疼还是不疼。总而言之就是在发愣，他沉默地、一声不吭地盯着手中烧灼得焦黑了的金属棍。</p>
+<p>　　“……那是那么难考虑的问题吗？”</p>
+<p>　　须藤芽依就干脆好奇地瞅着新堂伦太郎，没多久，又大大咧咧地说：“其实走一步算一步也不是不可以嘛。”</p>
+<p>　　“……诶？”</p>
+<p>　　新堂伦太郎讷讷地眨着眼，很显然他并没能理解须藤芽依的譬喻：“什么意思？”</p>
+<p>　　“我的意思就是，我们还年轻啦——管这么多干什么啊？！”芽依而后伸出饱饱的食指点了点这家伙的额头，“听说伦太郎是‘笨蛋太郎’哦……现在看来，不会是真的吧？！”</p>
+<p>　　她笑出了声。</p>
+<p>　　烟火的光芒旋即消逝在夏季末的晚风中。</p>
+<p>　　4.</p>
+<p>　　同年竟遇上二十年未有过的暴风雪，凶猛的寒风撕咬着窗户，砰！砰！砰！的。好像连灵魂都在震颤。这样的日子里会出门的也就只有新堂伦太郎了，他披着防雪的斗篷一路追到码头……遇上的却是船长在渔民的木房里烤火，对方吃着焦黑的烤鱿鱼，极不可思议地说，孩子，你究竟在想些什么呢？你看看这样的天气，难道能够行船吗？可是伦太郎刚刚才接到医院打来的电话，说是师父的情况不好了，他必须得去一趟，急得他险些就想踩着结冰的海面跑过去。</p>
+<p>　　幸运的是下一刻又有国文老师的电话打过来……那个老人以一种前所未有的宽慰说，不要紧，伦太郎，我就在医院里。“我同你的师父在一起。”他和蔼地笑。那一瞬间他就像是个真正的老人。</p>
+<p>　　所以后来有时新堂伦太郎就想，自己会不会有一天也会变成那个样子呢？假使，他将对自己的严厉转换为对学生的要求的话，只不过他那时已经成为东京某栋写字楼里的办公族了，键盘倒是敲得蛮快，说不上是顺心还是逆心。等雪停后他又第一时间乘船飞奔去找了师父，还是卧床，长岭谦信却并没有什么大碍，还摸了摸伦太郎的脸，笑笑，温和地问道：</p>
+<p>　　“……就要毕业了吧？”</p>
+<p>　　“嗯。”他替师父掖好了松动的被角，“等到春天我就要毕业啦。”</p>
+<p>　　“那伦太郎要去哪里读大学呢？”</p>
+<p>　　“东京。和飞羽真他们一起。”</p>
+<p>　　“那可真是好啊……”</p>
+<p>　　新堂伦太郎注意到师父的鬓角有一点点的白发了，就好像，冬日里慢慢爬上窗户的霜花。在医院里他总听说老人其实是很难撑过春天的，冬天的寒冷并不是真正的威胁，他们总是死在夏天就要到来的春天，伦太郎所害怕的就是这点，因此也时常反反复复地做同一个噩梦：师父死掉了，死在他离开小岛的那天。那么什么又是死呢？就是黑了，看不到了，什么也没有了。</p>
+<p>　　空了。</p>
+<p>　　想到这，他紧紧地抓着师父的手。</p>
+<p>　　“不过，这样的话，伦太郎不就看不到今年岛上的烟火了吗？”长岭谦信随即想到什么似的，有些遗憾地说，“你小时候最喜欢的就是那样的烟火啦，多热闹，而且，伦太郎总是缠着我要买苹果糖，不是吗？”</p>
+<p>　　“我可以回来的呀。”</p>
+<p>　　提起小时候的事情伦太郎没由来地有点害臊：“况且我都多少年没吃苹果糖了啊……师父为什么还记得啦。”</p>
+<p>　　“因为，我当年捡到伦太郎的时候，”师父的口吻很怀旧，抬起手背牵动了输液线，瓶子中澄清的液体震颤起来，翻涌，“伦太郎才这么小呀。写有你名字的纸条就塞在裹着你的布里，我当时就在想：孩子的母亲一定是没办法了吧？才会，选择丢弃这么这么可爱的孩子。”</p>
+<p>　　“……嗯。”</p>
+<p>　　新堂伦太郎趴在师父的床边，忽然记起来，小时师父也是这样趴在他的床边看他的，也并不会讲故事，只知道该讲些什么好哄孩子睡觉，就字正腔圆地念了《世界百科全书》……虽然，事实证明这招还挺管用的。</p>
+<p>　　“真想再和伦太郎一起看看那烟火啊……”</p>
+<p>　　师父说着说着，仿佛是刚打完的药劲上了脑袋，口齿慢吞吞地变得模糊不清起来，一刹那伦太郎感到了些许的慌乱。可当他试图攥住师父的手腕去感知对方的脉搏时师父又睁开眼睛了，好笑的，师父的眼中透出一闪而过的狡黠：“我还没有要去死呢。”</p>
+<p>　　“师父——”</p>
+<p>　　新堂伦太郎见状郁闷地吐出了口气，却为什么又想笑呢？他抿了抿唇，还是没忍住，呆呆地、闷闷地笑了：“这一点都不好笑耶。”</p>
+<p>　　“可伦太郎这不是笑了吗。”</p>
+<p>　　师父的语气很轻松：“所以你就别担心我啦，伦太郎，我还好好的呢。”</p>
+<p>　　“嗯。”</p>
+<p>　　长岭谦信拍了拍新堂伦太郎的脑袋。窗外的雪还在下。</p>
+<p>　　5.</p>
+<p>　　新堂伦太郎毕业的那天没去参加学校的毕业典礼，本来只是想偷偷地溜掉的，谁能想到另外那几个家伙的眼睛是那么的尖呢？结果，一溜烟的，四个人都穿着典礼上才会穿着的藏蓝色西服跑掉了。“就好像逃婚。”神山飞羽真是这么评价的，而那时他们的手上都提着大袋小袋的烟火，在船上互相分着不同口味的炒面面包。等上了岸他们又找到须藤芽依一起去买更多的烟火，但是，他们所携带的武装力量可把后者给惊呆了：</p>
+<p>　　“……你们这是要去轰炸首相府吗？”</p>
+<p>　　“不是啦。”</p>
+<p>　　男生们异口同声地解释道：</p>
+<p>　　“是烟火大会——”</p>
+<p>　　夜晚降临的时候，新堂伦太郎用轮椅推着师父上了天台，飞羽真在和莲赌气，比赛看谁的烟火布置得更快更好，贤人都懒得调停这俩人了，蹲在另一边，与芽依调整着烟火的间距，同时还不忘扭头提醒一句：“喂喂，我说——飞羽真，莲，你们可别真的把病院给炸了啊？！”</p>
+<p>　　是事前征求过院方的同意的，天台下，还有许多的病人都聚到了一起，彼此谈笑着，当然更像是借由这个机会去庆祝：他们终于熬过了这个冬天。那其中也有着那个白胡子国文老师。</p>
+<p>　　“好——要放啦！！！”</p>
+<p>　　神山飞羽真好不容易和绯道莲停了战，挥舞着打火机，新堂伦太郎就陪在师父的身边，其余的高中毕业生们则手牵起了手，非常大声地倒计时道：</p>
+<p>　　“三——二——一——”</p>
+<p>　　“——轰！！！”</p>
+<p>　　那样灿烂的光芒，在无边无际的夜色中炸开了，就像是一生中只能见到一次的风景。</p>
+<p>　　“师父。”</p>
+<p>　　这时，蹲在师父的轮椅旁，新堂伦太郎悄悄地牵紧了长岭谦信的手。他说：“家门口的那株樱花树开花啦。”那株在抱回新堂伦太郎那年种下的树。</p>
+<p>　　“噢，是这样啊。”</p>
+<p>　　长岭谦信于是笑着说：“是睡醒了吧？”</p>
+<p>　　“嗯。”</p>
+<p>　　新堂伦太郎用力点了点头：“是睡醒了。”</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://seii1115.github.io">十三日夜花</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://seii1115.github.io/2025/03/17/%E6%99%9A%E6%A8%B1/">https://seii1115.github.io/2025/03/17/%E6%99%9A%E6%A8%B1/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://seii1115.github.io" target="_blank">十三日夜花</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%96%B0%E5%A0%82%E4%BC%A6%E5%A4%AA%E9%83%8E/">新堂伦太郎</a></div><div class="post-share"><div class="social-share" data-image="/assets/head.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/03/19/%E6%9F%94%E8%BD%AF%E7%9A%84/" title="【拉齐亚中心】柔软的"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">【拉齐亚中心】柔软的</div></div><div class="info-2"><div class="info-item-1">写于27集前。柔软的石头的味道。</div></div></div></a><a class="pagination-related" href="/2025/03/11/%E9%9B%A8%E4%BC%9E/" title="【羽父子】雨伞"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">【羽父子】雨伞</div></div><div class="info-2"><div class="info-item-1">新雨伞。</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2024/12/10/%E6%AF%94%E6%B5%B7%E6%9B%B4%E6%B7%B1/" title="【伦芽】比海更深"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-10</div><div class="info-item-2">【伦芽】比海更深</div></div><div class="info-2"><div class="info-item-1">“我是说，伦太郎，你太狡猾了。”</div></div></div></a><a class="pagination-related" href="/2025/01/12/%E5%A6%82%E6%9C%88%E8%BD%A6%E7%AB%99/" title="【伦中心】如月车站"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-12</div><div class="info-item-2">【伦中心】如月车站</div></div><div class="info-2"><div class="info-item-1">来到奇怪的车站。</div></div></div></a><a class="pagination-related" href="/2024/10/19/BIRDIE/" title="【伦芽&#x2F;神芽】BIRDIE"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-19</div><div class="info-item-2">【伦芽&#x2F;神芽】BIRDIE</div></div><div class="info-2"><div class="info-item-1">“漫画里不一般都是这么设定的吗？编辑爱上了自己的作者，或者作者爱上了自己的编辑……”</div></div></div></a><a class="pagination-related" href="/2024/12/11/%E6%AD%BB%E5%88%AB/" title="【水师徒】死别"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-11</div><div class="info-item-2">【水师徒】死别</div></div><div class="info-2"><div class="info-item-1">便利店与冰棍与滚筒式回转抽签器。</div></div></div></a><a class="pagination-related" href="/2024/08/19/%E4%B8%8Dooxx%E5%B0%B1%E5%87%BA%E4%B8%8D%E5%8E%BB%E7%9A%84%E6%88%BF%E9%97%B4/" title="【贤伦贤】不〇〇××就出不去的房间"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-19</div><div class="info-item-2">【贤伦贤】不〇〇××就出不去的房间</div></div><div class="info-2"><div class="info-item-1">被迫发生关系的、毫无浪漫倾向的二人。</div></div></div></a><a class="pagination-related" href="/2024/12/02/%E5%8F%A0%E5%BD%B1/" title="【伦芽】叠影"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-02</div><div class="info-item-2">【伦芽】叠影</div></div><div class="info-2"><div class="info-item-1">一瞬间的交错。</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">十三日夜花</div><div class="author-info-description">我们在非常寂静的松树林里走着。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">102</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://weibo.com/u/7947067016"><i class="fab fa-weibo"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/23/%E8%8B%8D%E4%B9%8B%E6%A3%AE%E6%9E%97%E7%9A%84%E5%8D%A0%E5%8D%9C%E9%AD%94%E5%A5%B3/" title="【手芝】苍之森林的占卜魔女">【手芝】苍之森林的占卜魔女</a><time datetime="2026-10-22T16:00:00.000Z" title="发表于 2026-10-23 00:00:00">2026-10-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/20/%E8%B0%A8%E9%98%B2%E5%B0%81%E5%BB%BA%E8%BF%B7%E4%BF%A1/" title="【北海北】谨防封建迷信">【北海北】谨防封建迷信</a><time datetime="2026-10-19T16:00:00.000Z" title="发表于 2026-10-20 00:00:00">2026-10-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/19/%E6%82%A0%E9%95%BF%E5%81%87%E6%9C%9F/" title="【海莲】悠长假期">【海莲】悠长假期</a><time datetime="2026-10-18T16:00:00.000Z" title="发表于 2026-10-19 00:00:00">2026-10-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/04/%E8%BF%87%E6%98%A5%E5%A4%A9/" title="【律警】关于得罪黑社会好像就会被〇〇的事">【律警】关于得罪黑社会好像就会被〇〇的事</a><time datetime="2026-10-03T16:00:00.000Z" title="发表于 2026-10-04 00:00:00">2026-10-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/09/28/%E5%8D%A1%E7%8E%9B/" title="【律警】卡玛">【律警】卡玛</a><time datetime="2026-09-27T16:00:00.000Z" title="发表于 2026-09-28 00:00:00">2026-09-28</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 十三日夜花</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.0</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script src="/js/rain.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章标题" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.0"></script></div></div></body></html>

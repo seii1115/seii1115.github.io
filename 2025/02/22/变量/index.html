@@ -1,0 +1,248 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>【神芽】50%救世主 | 十三日夜花</title><meta name="author" content="十三日夜花"><meta name="copyright" content="十三日夜花"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="半个救世主殿下。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【神芽】50%救世主">
+<meta property="og:url" content="https://seii1115.github.io/2025/02/22/%E5%8F%98%E9%87%8F/index.html">
+<meta property="og:site_name" content="十三日夜花">
+<meta property="og:description" content="半个救世主殿下。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://seii1115.github.io/assets/head.png">
+<meta property="article:published_time" content="2025-02-21T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-10-28T15:18:26.540Z">
+<meta property="article:author" content="十三日夜花">
+<meta property="article:tag" content="神山飞羽真">
+<meta property="article:tag" content="神芽">
+<meta property="article:tag" content="须藤芽依">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://seii1115.github.io/assets/head.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "【神芽】50%救世主",
+  "url": "https://seii1115.github.io/2025/02/22/%E5%8F%98%E9%87%8F/",
+  "image": "https://seii1115.github.io/assets/head.png",
+  "datePublished": "2025-02-21T16:00:00.000Z",
+  "dateModified": "2026-10-28T15:18:26.540Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "十三日夜花",
+      "url": "https://seii1115.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://seii1115.github.io/2025/02/22/%E5%8F%98%E9%87%8F/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=5.7.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":true,"pagination":{"enable":true,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【神芽】50%救世主',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap"><style>#site-subtitle{font-size:.9em!important}@media screen and (min-width:768px){#site-subtitle{font-size:1.2em!important}}</style><style>@media screen and (max-width:768px){#nav #search-button .search>i{font-size:1.3em}}</style><style>@media screen and (max-width:768px){#post-meta>.meta-firstline,#post-meta>.meta-secondline{display:block!important}#post-meta span.post-meta-tags{display:block!important}#post-meta span.post-meta-tags>.post-meta-separator:first-child,#post-meta>.meta-secondline>.post-meta-separator:first-child{display:none!important}}</style><meta name="generator" content="Hexo 8.1.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">102</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">十三日夜花</span></a><a class="nav-page-title" href="/"><span class="site-name">【神芽】50%救世主</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">【神芽】50%救世主</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2025-02-21T16:00:00.000Z" title="发表于 2025-02-22 00:00:00">2025-02-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%81%87%E9%9D%A2%E9%AA%91%E5%A3%AB%E5%9C%A3%E5%88%83/">假面骑士圣刃</a></span><span class="post-meta-tags"><span class="post-meta-separator">|</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E7%A5%9E%E5%B1%B1%E9%A3%9E%E7%BE%BD%E7%9C%9F/">神山飞羽真</a><span class="post-meta-separator">•</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E7%A5%9E%E8%8A%BD/">神芽</a><span class="post-meta-separator">•</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E9%A1%BB%E8%97%A4%E8%8A%BD%E4%BE%9D/">须藤芽依</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">2407</span></span></div></div></div><article class="container post-content" id="article-container"><p>　　须藤芽依偶尔帮带亲戚家的孩子，是个父母都留过洋的小女孩，英语好得简直令编辑大人汗颜，好在也好哄，唯独钟爱的是不带日文字幕的原声版《My Little Pony》，她就往往在这种时候放空了大脑同她一起做在电视机前发呆，听那些五颜六色的小马驹又唱又跳……连带着英语听力水平都提高不少。有天看到一集，说是星光熠熠用魔法改变了过去，让暮光闪闪没办法再与朋友相遇了什么的，又恰逢神山飞羽真打电话来讨论新书定稿，她就对小女孩说，抱歉哦，姐姐去接个电话，好不好？小女孩则格外通情达理地回答：“是工作上的事情吗？好吧好吧，真拿你们这些大人没办法耶——那姐姐就去吧。”神山飞羽真听须藤芽依转述，笑得上气不接下气。</p>
+<p>　　“哈……好有意思的小朋友啊。”</p>
+<p>　　飞羽真的语气听上去乐呵呵、笑吟吟的，须藤芽依总是能够通过他上扬的语调去联想他的笑容：先是眼睛都眯起来，然后，嘴唇抿着，唇线是猫咪一样两头勾起的弧度……温和、婉转，虽然会有些皱巴巴的，却也带着稚气。总而言之，那些皱纹是毛绒绒的小动物在床单上打滚留下的皱纹而非废纸团揉出的皱纹啦，她听到他的声音：“芽依姐姐被教训了呢。”</p>
+<p>　　“喂喂，飞羽真，你是不知道，现在的小朋友有多早熟啦……”</p>
+<p>　　反正也把正事给谈完了，客厅不时飘过来一两句歌声。须藤芽依不着边际地想：不知道友谊公主最终有没有战胜那匹魔力强大的邪恶小马呢？或者邪恶也谈不上，反正子供向的动画到最后，反派要么是坏得掉渣的要么就是一身苦衷的嘛。于是歪了歪脑袋，她让阳台外的风流淌过她与手机的间隙：“你知道吗，飞羽真？刚刚，我和那孩子一起看动画片，我问她说，如果像动画片里一样，你和你最重要的朋友如果从来没遇到过，会怎么样呢？她居然啊……”</p>
+<p>　　“居然什么？”飞羽真饶有兴致地追问。</p>
+<p>　　“居然说，”芽依佯装着那孩子忧郁的口吻，“‘即使没有遇到过也没有关系哦，反正到最后大家总要分离。’”</p>
+<p>　　沉默。</p>
+<p>　　憋了好半天，神山飞羽真小心翼翼地说：</p>
+<p>　　“这孩子……难道有一个前世叫太宰治吗？”</p>
+<p>　　结果，两个人一齐笑出声来。</p>
+<p>　　“嘛，不过小芽依有想过类似的事情吗？”这时飞羽真收住了笑声，那一头传来木质椅磨蹭地面的声响，以及，咖啡杯碰撞桌面的声响，根据季节来判断须藤芽依认为那是一杯加足了牛奶的热咖啡，“如果没有成为我的责任编辑的话，小芽依会成为什么样的人呢？”</p>
+<p>　　“诶？没有啦，我是会考虑这些问题的人吗？”芽依的手肘抵在阳台围栏的边缘，她踮起脚尖轻轻拉伸被迫压缩在了工位里一整日的身体，咔哒咔哒，似乎是可怜的脊柱在彼此咬合，每每到这种时候她就觉得自己好像一棵树皮正在缓缓剥落的老树，“不过……和现在能有什么区别啊，倒不如说还没那么操心了？”</p>
+<p>　　“不用操心谁啦，伦太郎？尤里？虽然当时你确实是成天盯着他们两个跑的样子……”飞羽真十分轻快地说，“那还真是辛苦你了呀，小芽依。”</p>
+<p>　　“等等，是不是漏了谁啊，是谁呢是谁呢是谁呢？是你啊——你啊你啊你啊！飞羽真。”须藤芽依没好气地补充道，“那个时候，我不是还成天和你一起去寻找失踪的受害者家属吗？还要好好盯着你不要乱来——那个熬夜整理相关信息结果差点晕倒了的家伙是谁来着，嗯？还有那个骨折了还强行变身的家伙又是谁来着？虽然，有尤里就是了。”</p>
+<p>　　“啊……抱歉抱歉，小芽依，辛苦你了嘛。”飞羽真在这种事情上一向道歉迅速，乖巧得让芽依往往想起朋友家的小比格犬……在撕扯完窗帘或者床单后，就睁着水汪汪的大圆眼睛瞧主人，一副无辜的纯良模样，“现在我可不会这样咯。”</p>
+<p>　　“才怪啦，要是还有这样那样的事情，不管是谁都知道，飞羽真你会是第一个冲上去的人，好吧？”</p>
+<p>　　芽依皱了皱鼻子：“嘛……不过，那的确是一个美丽的世界呢，还有后来的那些，如果没遇到飞羽真的话我就看不到了吧？这样说来，虽然很辛苦，还差点丢了性命，其实也还不赖啦。”</p>
+<p>　　“——而且，神山老师可是我们杂志社的王牌作家哟！”</p>
+<p>　　随即，最近刚刚升职犯起了财迷病的某位主编欢快地总结道：“所以我会死死盯着你的，飞羽真！可不要想着像个花心男一样踹了我去其他的杂志社哦……我们签了卖身契的哦……要遵守约定哦……”</p>
+<p>　　“……等等，什么鬼啊。”</p>
+<p>　　神山飞羽真的声线听上去很无奈了，期间夹杂着电波扭曲而成的一点点沙沙声响，微弱的雨点一样，让夜晚沾染上了很轻……很慢的……凉意。他顿了顿，笑了：“不过，要是没遇到小芽依的话，我肯定不是现在这个样子的啦。”</p>
+<p>　　“噢，我都忘了这个。”</p>
+<p>　　须藤芽依跟着，笑起来：“那飞羽真就会是冷酷帅哥了呀。嘛嘛，不过，话又说回来，这款，现在还挺流行的呢……”</p>
+<p>　　“喂喂喂……所以小芽依的意思是让我变回去吗？”</p>
+<p>　　神山飞羽真叹了口气。</p>
+<p>　　“也可以试试嘛。”须藤芽依畅快地“哈”了一声，“而且，不是有那句很有名的话嘛，小芦田爱菜在电视上演过的，啊——那个什么——男人就像，呃……”</p>
+<p>　　“男人就像口香糖，是吧？”飞羽真慢吞吞地清清嗓，剧目的开场前奏一般，接着他深吸口气，飞快地挤出小姓似的一串话，“那我真是要无比感谢须藤芽依殿下啦——感谢她还没有嚼腻我这块口香糖呢。”</p>
+<p>　　……静。</p>
+<p>　　空气，马上就冷下来了呢……</p>
+<p>　　“飞羽真，我说啊……”</p>
+<p>　　“你这关西腔是从哪学的啊？！你还是少和斯特利乌斯待在一起聊天吧！！！”</p>
+<p>　　缄默了好一会，须藤芽依连忙搓了搓自己的胳膊，发出惨烈的尖叫：“我刚刚好像掉了层皮诶——天啊，我这是在哪里？！我这是来到了北区基地的大门外吗？！”</p>
+<p>　　“喔，”飞羽真吃惊地说，“杀伤力还不错嘛。”</p>
+<p>　　“何止是不错啊……”</p>
+<p>　　芽依忍不住翻了个白眼：“飞羽真，你知不知道啊？你刚刚差点谋杀了这个世界的半个救世主耶！”</p>
+<p>　　“诶？好可怕……”</p>
+<p>　　神山飞羽真快乐的笑声传过来……这家伙真是从头到脚都没显示出半分悔改的意思。但末了他却想起什么一样，非常温柔地说道：“嘛，不过，说的也是哦。要是没有遇到小芽依的话，这个世界，连同我一起，或许就真的毁灭了吧？”</p>
+<p>　　“嘛——”</p>
+<p>　　须藤芽依眨眼睛，拉长声音，抬头，她在夜色中呼出柔软的气息：</p>
+<p>　　“那倒也是啦——”</p>
+<p>　　“所以，能遇到飞羽真你也真是太好喽。”她笑着说，“另外的半个救世主殿下。”</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://seii1115.github.io">十三日夜花</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://seii1115.github.io/2025/02/22/%E5%8F%98%E9%87%8F/">https://seii1115.github.io/2025/02/22/%E5%8F%98%E9%87%8F/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://seii1115.github.io" target="_blank">十三日夜花</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%A5%9E%E5%B1%B1%E9%A3%9E%E7%BE%BD%E7%9C%9F/">神山飞羽真</a><a class="post-meta__tags" href="/tags/%E7%A5%9E%E8%8A%BD/">神芽</a><a class="post-meta__tags" href="/tags/%E9%A1%BB%E8%97%A4%E8%8A%BD%E4%BE%9D/">须藤芽依</a></div><div class="post-share"><div class="social-share" data-image="/assets/head.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/02/26/%E4%B8%8D%E5%99%A8%E7%94%A8/" title="【贤中心】不器用"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">【贤中心】不器用</div></div><div class="info-2"><div class="info-item-1">“在这里的人，度过了很长很好的一生。”</div></div></div></a><a class="pagination-related" href="/2025/02/21/%E5%85%B3%E4%BA%8E%E7%A4%BE%E7%95%9C%E8%BE%9E%E8%81%8C%E7%9A%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A/" title="【羽贤】关于社畜辞职的可行性研究报告"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">【羽贤】关于社畜辞职的可行性研究报告</div></div><div class="info-2"><div class="info-item-1">辞职吧！</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2025/04/03/%E4%B8%8D%E8%AF%B4%E5%A4%9F%E4%B8%80%E4%B8%87%E5%8F%A5%E7%9C%9F%E5%BF%83%E8%AF%9D%E5%B0%B1%E5%87%BA%E4%B8%8D%E5%8E%BB%E7%9A%84%E6%88%BF%E9%97%B4/" title="【神芽】不说够一万句真心话就出不去的房间"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-03</div><div class="info-item-2">【神芽】不说够一万句真心话就出不去的房间</div></div><div class="info-2"><div class="info-item-1">“就算是感情很好的夫妇，一生，也无法对对方说出这么多的真心话吧——”</div></div></div></a><a class="pagination-related" href="/2025/03/27/%E4%B8%B8%E4%B9%8B%E5%86%85La%20La%20Land%20%E7%89%A9%E8%AF%AD/" title="【神芽】丸之内La La Land 物语"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-03-27</div><div class="info-item-2">【神芽】丸之内La La Land 物语</div></div><div class="info-2"><div class="info-item-1">虽然深爱东京。</div></div></div></a><a class="pagination-related" href="/2025/03/01/%E8%8A%B1%E6%9D%9F%E8%88%AC%E7%9A%84/" title="【神芽】花束般的"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-03-01</div><div class="info-item-2">【神芽】花束般的</div></div><div class="info-2"><div class="info-item-1">那是第七天，杂志社的附近开了花店。</div></div></div></a><a class="pagination-related" href="/2024/12/31/%E4%B8%83%E6%AC%A1%E9%99%90%E5%AE%9A%E5%A4%A9%E4%BD%BF/" title="【神芽】七次限定天使"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-31</div><div class="info-item-2">【神芽】七次限定天使</div></div><div class="info-2"><div class="info-item-1">“没关系，我会保护小芽依的。”</div></div></div></a><a class="pagination-related" href="/2024/11/27/%E8%87%B4%E6%81%8B%E4%BA%BA/" title="【神芽】致恋人"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-27</div><div class="info-item-2">【神芽】致恋人</div></div><div class="info-2"><div class="info-item-1">“在小芽依拉我去喝酒之前，先陪我去看电影吧？”</div></div></div></a><a class="pagination-related" href="/2024/10/19/BIRDIE/" title="【伦芽&#x2F;神芽】BIRDIE"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-19</div><div class="info-item-2">【伦芽&#x2F;神芽】BIRDIE</div></div><div class="info-2"><div class="info-item-1">“漫画里不一般都是这么设定的吗？编辑爱上了自己的作者，或者作者爱上了自己的编辑……”</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">十三日夜花</div><div class="author-info-description">我们在非常寂静的松树林里走着。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">102</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">84</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://weibo.com/u/7947067016"><i class="fab fa-weibo"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/23/%E8%8B%8D%E4%B9%8B%E6%A3%AE%E6%9E%97%E7%9A%84%E5%8D%A0%E5%8D%9C%E9%AD%94%E5%A5%B3/" title="【手芝】苍之森林的占卜魔女">【手芝】苍之森林的占卜魔女</a><time datetime="2026-10-22T16:00:00.000Z" title="发表于 2026-10-23 00:00:00">2026-10-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/20/%E8%B0%A8%E9%98%B2%E5%B0%81%E5%BB%BA%E8%BF%B7%E4%BF%A1/" title="【北海北】谨防封建迷信">【北海北】谨防封建迷信</a><time datetime="2026-10-19T16:00:00.000Z" title="发表于 2026-10-20 00:00:00">2026-10-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/19/%E6%82%A0%E9%95%BF%E5%81%87%E6%9C%9F/" title="【海莲】悠长假期">【海莲】悠长假期</a><time datetime="2026-10-18T16:00:00.000Z" title="发表于 2026-10-19 00:00:00">2026-10-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/04/%E8%BF%87%E6%98%A5%E5%A4%A9/" title="【律警】关于得罪黑社会好像就会被〇〇的事">【律警】关于得罪黑社会好像就会被〇〇的事</a><time datetime="2026-10-03T16:00:00.000Z" title="发表于 2026-10-04 00:00:00">2026-10-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/09/28/%E5%8D%A1%E7%8E%9B/" title="【律警】卡玛">【律警】卡玛</a><time datetime="2026-09-27T16:00:00.000Z" title="发表于 2026-09-28 00:00:00">2026-09-28</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 十三日夜花</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.0</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script src="/js/rain.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章标题" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.0"></script></div></div></body></html>
