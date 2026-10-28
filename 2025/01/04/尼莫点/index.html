@@ -1,0 +1,224 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>【圣主中心】尼莫点 | 十三日夜花</title><meta name="author" content="十三日夜花"><meta name="copyright" content="十三日夜花"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="无风之地。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【圣主中心】尼莫点">
+<meta property="og:url" content="https://seii1115.github.io/2025/01/04/%E5%B0%BC%E8%8E%AB%E7%82%B9/index.html">
+<meta property="og:site_name" content="十三日夜花">
+<meta property="og:description" content="无风之地。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://seii1115.github.io/assets/head.png">
+<meta property="article:published_time" content="2025-01-03T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-10-28T10:11:08.463Z">
+<meta property="article:author" content="十三日夜花">
+<meta property="article:tag" content="神田伊扎克">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://seii1115.github.io/assets/head.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "【圣主中心】尼莫点",
+  "url": "https://seii1115.github.io/2025/01/04/%E5%B0%BC%E8%8E%AB%E7%82%B9/",
+  "image": "https://seii1115.github.io/assets/head.png",
+  "datePublished": "2025-01-03T16:00:00.000Z",
+  "dateModified": "2026-10-28T10:11:08.463Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "十三日夜花",
+      "url": "https://seii1115.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://seii1115.github.io/2025/01/04/%E5%B0%BC%E8%8E%AB%E7%82%B9/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=5.7.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":true,"pagination":{"enable":true,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【圣主中心】尼莫点',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap"><style>#site-subtitle{font-size:.9em!important}@media screen and (min-width:768px){#site-subtitle{font-size:1.2em!important}}</style><style>@media screen and (max-width:768px){#nav #search-button .search>i{font-size:1.3em}}</style><style>@media screen and (max-width:768px){#post-meta>.meta-firstline,#post-meta>.meta-secondline{display:block!important}#post-meta span.post-meta-tags{display:block!important}#post-meta span.post-meta-tags>.post-meta-separator:first-child,#post-meta>.meta-secondline>.post-meta-separator:first-child{display:none!important}}</style><meta name="generator" content="Hexo 8.1.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">79</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">76</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">十三日夜花</span></a><a class="nav-page-title" href="/"><span class="site-name">【圣主中心】尼莫点</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">【圣主中心】尼莫点</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2025-01-03T16:00:00.000Z" title="发表于 2025-01-04 00:00:00">2025-01-04</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%81%87%E9%9D%A2%E9%AA%91%E5%A3%AB%E5%9C%A3%E5%88%83/">假面骑士圣刃</a></span><span class="post-meta-tags"><span class="post-meta-separator">|</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E7%A5%9E%E7%94%B0%E4%BC%8A%E6%89%8E%E5%85%8B/">神田伊扎克</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">1823</span></span></div></div></div><article class="container post-content" id="article-container"><p>　　神田伊扎克记得那是一零一二年，大航海时代还未如此繁荣地到来的岁月，他的简陋的船只漂浮在后来被人类称之为“尼莫点”的领域，他从未这样厌倦过他过去梦寐以求的冒险时光。一切甘美的红酒或是食物在四面八方海风的腌渍下都会变得又苦又涩……连那些凶猛的鲸和鲨鱼仿佛都在惊惧着这里荒芜的存在……而圣剑骑士团却凭借着剑的指引与超乎寻常的精神力杀出了那片海域。这世上还有谁能够乘坐小小的木制帆船抵达两千公里以外的海岸线呢？只是，那天，同伴们因观望到了陆地的起伏而热泪盈眶的那天，神田伊扎克注意到自己本应永不锈蚀的圣剑之上出现了一块深红的锈斑，海水像是要逆流，风则惊惶地将他们推向彼岸。然后他说，来不及了，我们已经错过了。</p>
+<p>　　“错过什么？”</p>
+<p>　　他说：“他死了。”</p>
+<p>　　起源先驱的五人之一、真理之剑的创建者、初代真理圣主死于一零一二年地球南半球的秋季初，在那之后，南区基地开始进入一如既往漫长的极夜。</p>
+<p>　　没能见到父亲的最后一面在世俗意义的层面上来说是一种遗憾，然而事实上神田伊扎克对那位伟大的父亲并没有什么情感……在他出生后的三年他们甚至没有见过面。那时他还以为片刻不愿离开自己的嬷嬷才是自己的家人，他总叫她，妈妈，并称呼教导他文学与剑技的老师为爸爸。以至于他第一次亲眼见到那个身披红色长袍的男人时甚至被吓哭了？因为男人的手上有着那么浓重那么深沉的血腥味，就像是刚刚杀了人，伊扎克心想是不是下一个就轮到自己。他扭头扑向嬷嬷的怀中，可那个人看着看着又笑了，说，伊扎克，我是你的父亲。</p>
+<p>　　……结果他哭得更厉害了。</p>
+<p>　　其实他不太记得父亲的脸。当那个人比自己高时，他从不抬头注视他的眼睛；当那个人比他矮时，他正率着领骑士团在世界各地开展一次又一次的征程。人人都说你看啊，那对父子是多么的相像。像吗？难怪他有时看着镜子就没由来地萌生出一种想要将其砸碎的冲动。那么母亲？不不，他的生命连同他的一切都没有过母亲的存在，只是听说母亲是死在父亲救下来的人类的手下的，父亲还日复一日地挡在这群弱小的蝼蚁跟前，又图的是什么呢，赞美？年复一年听下属或者老头子赞颂着父亲的品德倒是始终不变的。</p>
+<p>　　有天神田伊扎克才从修炼场出来，南区基地的走廊大多铺着厚重的红毯，野兽的长舌一样延伸，踩上去有种即将被吞没的感觉，也并不会发出什么脚步声。回到寝所，他搁下剑，发现书桌一角搁置的布偶，再摸出一张贺卡，写着，生日快乐。那无疑是出自父亲的笨拙的手笔。好，好，都好。他抱着那只布偶无不讽刺地想：唯一的问题是他已经二十岁了。随手将布偶扔进壁炉，也不怕，他有一衣柜的款式一模一样的布偶。</p>
+<p>　　父亲最大的缺点大概是记性不好。伊扎克一边这么想着一边站在衣柜面前望着那一只只沾满灰尘的布偶，它们每一只都在幽深处对他露出微笑。从大大小小的节日到纪念日，布偶从不缺席，自己在父亲心里又是多少岁的孩子呢？难道他身边就没有人想过要提醒父亲吗？不过也是合理的。就算伊扎克不是他的儿子而是他的管家什么的也不会提醒他，毕竟，真理圣主的决定怎么可能会有错呢？</p>
+<p>　　不会的。</p>
+<p>　　壁炉里的火焰翻滚、沸腾、燃烧，渐渐的，它们将布偶微笑着的脸吃掉了。</p>
+<p>　　据说人死后的灵魂会在某个地方短暂地停留，但即使是还身为圣剑骑士团的团长时神田伊扎克也不曾相信过这些。可如今他死了，真的来到了这里，一片幽幽的寂寂的海，海风像是要用盐腌制死尸一样的粗粝。他所坐着的是一艘破败的木船，海水沿着破洞渗进来，仿佛很快要将他吞并，这时他的父亲居然出现在他面前。初代的真理圣主就那样站在平坦开阔的海面上，周遭的阳光将他的身影撕扯得模模糊糊的，接着伊扎克听到他说：“孩子，跟我走吧。”</p>
+<p>　　“去哪？”他异常漠然地反问道。</p>
+<p>　　“去一个没有黑暗与疯狂的地方，”父亲的声音很温和，“去赎你的罪。”</p>
+<p>　　“我的罪？”</p>
+<p>　　伊扎克拔高音调，冰凉的海水漫到他的小腿，他突然就想起小时候他第一次离开南区基地去到冰雪以外的世界的场景：那是在西西里，干燥的太阳光线与柠柑橘交织着的河畔，那天他突发奇想要扎一架木筏逃离嬷嬷和老师的掌控，去到一个绝不会再有剑、剑士及相关的所有事物的世界。可他刚刚收集好足够坚韧的木材就被发现了，他被拖离茂密的橘子树下，后来他再也找不到那棵树了，因为那里建起一座工厂。河流整条都变为黑色。又想到他当时那么迫切地想要回去是为了证明自己从来就不是“圣主之子”这一头衔的附庸……尽管他还是被称为，“真理圣主”。</p>
+<p>　　“不，我没有罪，父亲。”</p>
+<p>　　于是，神田伊扎克近乎残忍地，笑了：</p>
+<p>　　“毕竟神怎么可能会犯错呢？所以我绝不跟你去向那里。”</p>
+<p>　　那海水终于淹没了他。 </p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://seii1115.github.io">十三日夜花</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://seii1115.github.io/2025/01/04/%E5%B0%BC%E8%8E%AB%E7%82%B9/">https://seii1115.github.io/2025/01/04/%E5%B0%BC%E8%8E%AB%E7%82%B9/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://seii1115.github.io" target="_blank">十三日夜花</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%A5%9E%E7%94%B0%E4%BC%8A%E6%89%8E%E5%85%8B/">神田伊扎克</a></div><div class="post-share"><div class="social-share" data-image="/assets/head.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/01/07/%E9%87%8E%E6%9C%9B/" title="【羽乌】野望"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">【羽乌】野望</div></div><div class="info-2"><div class="info-item-1">只有你灼烧的心脏，再无其他。</div></div></div></a><a class="pagination-related" href="/2025/01/01/%E5%85%AC%E7%AB%9F%E6%B8%A1%E6%B2%B3/" title="【尤芽】公竟渡河"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">【尤芽】公竟渡河</div></div><div class="info-2"><div class="info-item-1">阿瓦隆是个没有梦的地方。</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2024/12/25/%E8%B4%A4%E4%B8%BB/" title="【圣主中心】贤主"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-25</div><div class="info-item-2">【圣主中心】贤主</div></div><div class="info-2"><div class="info-item-1">仁慈。悲悯。</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">十三日夜花</div><div class="author-info-description">我们在非常寂静的松树林里走着。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">79</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">76</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://weibo.com/u/7947067016"><i class="fab fa-weibo"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/23/%E8%8B%8D%E4%B9%8B%E6%A3%AE%E6%9E%97%E7%9A%84%E5%8D%A0%E5%8D%9C%E9%AD%94%E5%A5%B3/" title="【手芝】苍之森林的占卜魔女">【手芝】苍之森林的占卜魔女</a><time datetime="2026-10-22T16:00:00.000Z" title="发表于 2026-10-23 00:00:00">2026-10-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/20/%E8%B0%A8%E9%98%B2%E5%B0%81%E5%BB%BA%E8%BF%B7%E4%BF%A1/" title="【北海北】谨防封建迷信">【北海北】谨防封建迷信</a><time datetime="2026-10-19T16:00:00.000Z" title="发表于 2026-10-20 00:00:00">2026-10-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/19/%E6%82%A0%E9%95%BF%E5%81%87%E6%9C%9F/" title="【海莲】悠长假期">【海莲】悠长假期</a><time datetime="2026-10-18T16:00:00.000Z" title="发表于 2026-10-19 00:00:00">2026-10-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/04/%E8%BF%87%E6%98%A5%E5%A4%A9/" title="【律警】关于得罪黑社会好像就会被〇〇的事">【律警】关于得罪黑社会好像就会被〇〇的事</a><time datetime="2026-10-03T16:00:00.000Z" title="发表于 2026-10-04 00:00:00">2026-10-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/09/28/%E5%8D%A1%E7%8E%9B/" title="【律警】卡玛">【律警】卡玛</a><time datetime="2026-09-27T16:00:00.000Z" title="发表于 2026-09-28 00:00:00">2026-09-28</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 十三日夜花</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.0</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script src="/js/rain.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章标题" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.0"></script></div></div></body></html>

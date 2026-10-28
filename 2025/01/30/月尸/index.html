@@ -1,0 +1,207 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>【羽乌】月尸 | 十三日夜花</title><meta name="author" content="十三日夜花"><meta name="copyright" content="十三日夜花"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="“小时候的我很害怕月亮。”">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【羽乌】月尸">
+<meta property="og:url" content="https://seii1115.github.io/2025/01/30/%E6%9C%88%E5%B0%B8/index.html">
+<meta property="og:site_name" content="十三日夜花">
+<meta property="og:description" content="“小时候的我很害怕月亮。”">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://seii1115.github.io/assets/head.png">
+<meta property="article:published_time" content="2025-01-29T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-10-28T10:20:05.784Z">
+<meta property="article:author" content="十三日夜花">
+<meta property="article:tag" content="斯特利乌斯">
+<meta property="article:tag" content="神山飞羽真">
+<meta property="article:tag" content="羽乌">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://seii1115.github.io/assets/head.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "【羽乌】月尸",
+  "url": "https://seii1115.github.io/2025/01/30/%E6%9C%88%E5%B0%B8/",
+  "image": "https://seii1115.github.io/assets/head.png",
+  "datePublished": "2025-01-29T16:00:00.000Z",
+  "dateModified": "2026-10-28T10:20:05.784Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "十三日夜花",
+      "url": "https://seii1115.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://seii1115.github.io/2025/01/30/%E6%9C%88%E5%B0%B8/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=5.7.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":true,"pagination":{"enable":true,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【羽乌】月尸',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap"><style>#site-subtitle{font-size:.9em!important}@media screen and (min-width:768px){#site-subtitle{font-size:1.2em!important}}</style><style>@media screen and (max-width:768px){#nav #search-button .search>i{font-size:1.3em}}</style><style>@media screen and (max-width:768px){#post-meta>.meta-firstline,#post-meta>.meta-secondline{display:block!important}#post-meta span.post-meta-tags{display:block!important}#post-meta span.post-meta-tags>.post-meta-separator:first-child,#post-meta>.meta-secondline>.post-meta-separator:first-child{display:none!important}}</style><meta name="generator" content="Hexo 8.1.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">79</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">76</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">十三日夜花</span></a><a class="nav-page-title" href="/"><span class="site-name">【羽乌】月尸</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">【羽乌】月尸</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2025-01-29T16:00:00.000Z" title="发表于 2025-01-30 00:00:00">2025-01-30</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%81%87%E9%9D%A2%E9%AA%91%E5%A3%AB%E5%9C%A3%E5%88%83/">假面骑士圣刃</a></span><span class="post-meta-tags"><span class="post-meta-separator">|</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E7%A5%9E%E5%B1%B1%E9%A3%9E%E7%BE%BD%E7%9C%9F/">神山飞羽真</a><span class="post-meta-separator">•</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E7%BE%BD%E4%B9%8C/">羽乌</a><span class="post-meta-separator">•</span><i class="fas fa-tag fa-fw post-meta-icon"></i><a class="post-meta-tags" href="/tags/%E6%96%AF%E7%89%B9%E5%88%A9%E4%B9%8C%E6%96%AF/">斯特利乌斯</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">7031</span></span></div></div></div><article class="container post-content" id="article-container"><p>　　大学同学痴迷摇滚乐队，偶尔生拉硬拽神山飞羽真去live house，他想想写小说的总是要开阔视野，最后也就跟着去了，在台下配合地欢呼与鼓掌，只是每每回到家后歌曲的旋律就像蜻蜓点水一样地不留痕迹。甚至，蜻蜓点水尚且会留下一颗颗小小的卵，而于神山飞羽真而言再强劲的鼓点也会被其他的记忆吞没。也许他真的就不适合欣赏这些？有时候他就会盯着家里的爵士乐唱片这么想着，直到遇上那名诗人。<br>　　<br>　　……确切来说是吉他主唱啦，这支只有他一个人的乐队的，只是大家都这么叫他，在肆无忌惮的暖场环节一边弹奏电吉他一边面无表情地念诗的青年，而且像是某种命中注定，神山飞羽真后来不多的几次陪同同学去live house的经历都遇上他。那天他抬起头，幽绿色的光芒倒悬花束一样扑下来包裹住诗人，台下有人喊着好行为艺术！好帅气！原来做这样显得离经叛道的事情居然也是能积攒出一波粉丝的。然后诗人抬起头，望向他，又或许没有？是神山飞羽真自作多情的产物？总之，在那一刹的交错后，诗人慢吞吞地走出包裹住他的光束，他所背着的吉他在黑暗中反射出幽幽的荧光。<br>　　<br>　　“那也是歌吗？”<br>　　<br>　　神山飞羽真有些不解地瞧着同学。<br>　　<br>　　“管它啦，反正这很摇滚，不是吗？他的发型也很个性耶，你看，一边的头发留出来……”同学吐吐舌头，“而且又不打扰正式的演出，暖场就是给钱就能上的部分嘛。”<br>　　<br>　　“诶……”飞羽真于是张了张嘴，“可是我还挺在意他念的诗的呢。”<br>　　<br>　　“啊，来了来了，真是文学系学生的通病哦。”同学忙着为台上乐队的主唱喝彩，当气氛被吵起来的时候，狭小的空间内的声浪大得可以盖过全功率开启的麦克风，“那！飞羽真——你去！后台找找他吧！他说不定还在——Encore！！！”<br>　　<br>　　神山飞羽真只好独自英勇地闯过了摇曳的手臂丛林与起伏的手掌海洋，气喘吁吁地穿过通往后台的门时耳中犹自回荡着震颤。轻微的耳鸣以及背部靠上门板所感受到的轻微的颤动让他在一瞬间有种被整个世界的声音都抛弃的感觉，乐曲留下尚未完全抽身的轨迹。接着，他看到了掠过走廊尽头的影子，幽灵一样，几乎拉扯出轻纱似的投影，他突然又觉得根本没必要叫住对方。因为这长长——长长的一幕也像是诗的本身的一环。<br>　　<br>　　他也慢慢踱步到了走廊的尽头，拐角处，刚刚那个人曾在这里停伫，堆积发现那里的天花板竟是镂了空的。惨白的月光洒下来，这显得诗人先生十分像是从这一管挤出来的钛白中幻化出来的妖怪。<br>　　<br>　　“你找到他了吗？”<br>　　<br>　　后来，同学好奇地问他，他摇头。<br>　　<br>　　“这就对了嘛。”同学见状竖起了食指和小拇指晃晃，那手势活像一只插头，“这才摇滚啊！”<br>　　<br>　　“什么啊……”<br>　　<br>　　无奈的，神山飞羽真笑了。<br>　　<br>　　之后期考和论文都忙起来，同学这样成日里悠哉悠哉的家伙也不得不辗转于教室与图书馆间，神山飞羽真更是天天一面念叨着《日本文学通史》一面在大学周边的商店街上走街串巷地逛，有回大半夜碰上导师他打招呼时导师还以为自己撞见鬼了。配合上五花八门的商铺似乎更方便他去记忆那些流派那些作家还有那些作家形形色色的轶事……比如，招牌为法式巧克力闪电泡芙的蛋糕店是三岛由纪夫切腹，商店街的尽头新开的那家乐器店则是川端康成口含煤气管自杀。日本的传统作家们仿佛鲜有善终。但就在他回忆雪之国度的银河是如何向岛村倾泻下来时他的余光中挂满吉他、贝斯还有许许多多其他乐器的橱窗中捕捉到了他没能捉住的虚影，还是墨绿或者幽绿的，随即他走了进去。<br>　　<br>　　“欢迎光临。”<br>　　<br>　　柜台后的店员带着些关西腔慢条斯理地开口，表情是漠漠然的，也说不上究竟是耐烦还是不耐烦。神山飞羽真脑子一时没转过弯，嘴里甚至还在背：<br>　　<br>　　“……想到这里我伤心得不得了。为什么呢？”<br>　　<br>　　“因为直子她甚至没有爱过我啊。”<br>　　<br>　　店员，或者说，诗人，流利地补全了他的话，打开了柜台的隔板，走出来，一侧的长鬓发舒展地搭在绿帆布围裙上：“所以您需要些什么？”<br>　　<br>　　“你……您是店长吗？”飞羽真愣了愣。<br>　　<br>　　“怎么可能。”<br>　　<br>　　店员露出显而易见的微讽的笑：“另外在这里我只是个打工的，如果先生您要询问本店营业范围以外的内容，恕我拒不回答。”<br>　　<br>　　“等等，我还什么都没……”<br>　　<br>　　“您是那种在进来以前就把答案写在了脸上的人。”<br>　　<br>　　“有这么明显吗？”<br>　　<br>　　神山飞羽真刚开了口就意识到哪儿不对了，便窘迫地清清嗓，在店员看白痴一样宽容的目光中飘飘悠悠地扫过墙面上大只小只悬挂的器具，有些带着洞的看上去也像嘲笑。一阵嗓子发涩的沉默后，他硬着头皮出声：“不对，我是……我是来挑乐器的啦！有什么推荐的好上手的乐器吗？”<br>　　<br>　　“自己学着玩、组乐队，还是为了追人？追同性还是异性？”<br>　　<br>　　店员闻言就收起了一派看好戏似的笑，恢复成先前的样子，那种，属于每一个深夜便利店店员的恹恹的样子。他流水线式地介绍：“吉他基本可以满足以上全部的三种需要，在不往专业方向挑战的前提下，也是很好上……”<br>　　<br>　　“哪种会比较适合配合电吉他？”<br>　　<br>　　神山飞羽真打断他，鬼使神差般说道：<br>　　<br>　　“……我有一点钢琴基础，但不多。”<br>　　<br>　　“那么……”店员顿了顿，话语诡异地悬停，飞羽真注意到他的手指按在了一侧的玻璃柜台表面上，指节渗出一点点的白，“就是键盘。但是乐队键盘手所需要的东西是和古典钢琴的知识理论完全不同的，乐队键盘手更需要学的是乐理与即兴等。”<br>　　<br>　　“啊……那，会作曲可以吗？好吧，也不太像，只是……”老实说飞羽真几乎没怎么听懂这人在说些什么东西……所以到头来他环顾了四周一圈，发现角落里落灰了的一台古典钢琴——大学生想当然地不会跑到这种店里买钢琴——随后，他跑过去掀起沉寂的琴盖，盯着黑白琴键发了会呆，将指尖轻轻地覆上去，“像这样。”<br>　　<br>　　“你刚刚想出来的？”<br>　　<br>　　店员第一次抛却了敬语。<br>　　<br>　　“啊……差不多吧，我觉得这样组合会很好听啦……小时候上钢琴课，老师不盯着的时候，我经常这么玩儿。”<br>　　<br>　　“音乐系？”<br>　　<br>　　“呃……文学系。”<br>　　<br>　　下一秒店员就把嘴给闭起来了，神山飞羽真猜他本应脱口而出的东西是“神经病”之类的……末了他慢慢地问下去：“那为什么没有继续学钢琴？不喜欢？”<br>　　<br>　　“……嘛，我唱歌太难听了嘛。”<br>　　<br>　　飞羽真想起什么一样为难地抓了抓头发：“所以我一直觉得我在音乐上没什么天赋来着……虽然大家和我去卡拉OK时也都还蛮包容的，可以容忍我连唱一个小时。”<br>　　<br>　　“那么幸好我不用和您一起去卡拉OK或是待在您包厢的隔壁唱歌什么的。”店员抱着双臂，望进神山飞羽真的眼睛，停顿、离开，“需要我为您介绍不同的键盘品牌、种类与型号吗？顺便一提，如果您在我的介绍下购买了乐器的话我是有提成的，因此我比较希望您的答案是肯定。”<br>　　<br>　　“什么啊……”<br>　　<br>　　结果，等飞羽真回过神来，他的手中已经捏着那张莫名其妙的单据了。单据的角落用原子笔签上了一个龙飞凤舞的、漂亮的花体字签名：<br>　　<br>　　斯特利乌斯。<br>　　<br>　　神山飞羽真不是那种拼了命想要拿出一个成绩往上挤的学生，在这一点上可以说是同他的导师品性相类，俩人硬生生从师徒混成父子关系是需要两方面的努力的。但一旦飞羽真欠了导师论文后者就要不辞辛苦地从名古屋或是北海道一路杀来讨要成品了，更何况据房东所说这小子半个月没出过房门，相比起来导师还得担心唯一的学生是不是一个不小心死在了出租屋里……谁料“砰”的一声！神山飞羽真在导师踹开门时正打算将泡面水倒掉，好险没一把直接泼人的脸上：<br>　　<br>　　“哇啊？！”<br>　　<br>　　“你你你你……飞羽真，你没死啊？！”<br>　　<br>　　导师很震惊。<br>　　<br>　　飞羽真更震惊：<br>　　<br>　　“老师我交论文了啊？！而且您干嘛诅咒我呀？！”<br>　　<br>　　静默。<br>　　<br>　　“……什么？”导师疑惑地询问。<br>　　<br>　　“等……我没交吗？我记得我昨晚发……不对！<br>　　<br>　　面面相觑过后，神山飞羽真心说不妙，忙跨过屋内散落着的满地的五线谱扑向电脑，他以迅雷不及掩耳之势翻开电子邮箱的网页！果不其然，收件箱里缓缓亮起两枚不祥的红点，发件人显示为……斯特利乌斯。<br>　　<br>　　“写的不错。”<br>　　<br>　　斯特利乌斯如是说：“建议神山先生投稿到角川书店的电击文库，改编为轻小说说不定能让它发挥出更大的用途。”<br>　　<br>　　……真刻薄。<br>　　<br>　　“老师，再给我三天……”<br>　　<br>　　神山飞羽真便咬牙切齿地删除了邮件，转而扭头深呼吸，试图以扑闪扑闪的无辜眼神激起导师所剩不多的慈爱之情：“初稿已经写完了，我还需要，呃……润色润色，嗯！润色润色！老师您也不想学生凭借一篇文章就让您在学界内名誉扫地吧，哈、哈哈……”<br>　　<br>　　憋屈的是真出了门他还得背着键盘找斯特利乌斯合练。导师收到论文定稿的那天问他，哟，飞羽真，你真玩起乐队啦？莫非是看上了谁打算以此培育爱情开始的契机吗？飞羽真一听这话就退后三十米大叫：“等等，老师，您别污蔑我！您不要开我这种玩笑啊——会吐的哦？！”这也算是某位文学系研究生与非职业吉他手兼诗人所为数不多达成的共识。导师听了就饶有兴致地反问，说，那到底是为什么呢？明明飞羽真以前好像从来不对这些事情感兴趣的呀。而后，飞羽真想了很久很久，才回答：<br>　　<br>　　“是素材。”<br>　　<br>　　那天，地下通道的正中央，刚刚收好自己的吉他的斯特利乌斯站在神山飞羽真的面前也这么问他说，为什么？“不过您要是敢回答‘被我的歌打动了’这类违心得不能再违心的话可就别怪我揍您了。”他旋即微笑着补充道，两侧的风灌进上下非常圆滑的空间，碰撞，发出的声响就像尖叫。他说：“我清楚我的歌可并没有这种魔力。”<br>　　<br>　　“那么，”飞羽真歪歪脑袋，小声地说，“为了观测？”<br>　　<br>　　“什么？”<br>　　<br>　　“我说。”<br>　　<br>　　飞羽真呼出了一口气……他抬头，对上斯特利乌斯的眼睛，那对在幽绿色光线中反射出危险的磷光的眼睛，此时此刻整被阴影所笼罩，让他觉得它的触感一定格外的冰冷且坚硬：“斯特利乌斯先生，我觉得您是一个非常有趣的写作素材，所以我想要观测您的轨迹。这个理由可行吗？”<br>　　<br>　　“噢。”斯特利乌斯模棱两可地应答了一声，可惜的是浓黑的影子模糊了他嘴角不知道是锋利还是柔软的线条，“……您变聪明了。”<br>　　<br>　　“我——一直——很聪明——”<br>　　<br>　　“我收回刚刚的话。”<br>　　<br>　　“……我也收回，其实斯特利乌斯你是个漫才奇才吧？要不试试和我一起出道？看样子你损我损得很来劲嘛。”<br>　　<br>　　飞羽真没好气地叉腰：“所以，斯特利乌斯的回答是什么呢？虽然我目前为止还完全是乐理白痴……但我有在恶补啦。我也希望得到您肯定的回答呢。”<br>　　<br>　　“可以。”<br>　　<br>　　“不可以就算……不对，真的吗？”飞羽真好像没料到他的爽快，瞪大双眼，“等等，真的可以吗？”<br>　　<br>　　“可以。”斯特利乌斯静静地说，“但不是因为你的理由。”<br>　　<br>　　“那是因……”<br>　　<br>　　吉他手最后转身走出通道：<br>　　<br>　　“那是因为神山先生给我带来的提成。”<br>　　<br>　　这支限定乐队的预计活动时长为一个月。“在一个月以后，”斯特利乌斯说：“我会离开这里，去到另外一个完全陌生的城市。”<br>　　<br>　　话说又回来了，从何时开始念白、以什么样的形式念白都凭斯特利乌斯的心情决定，他们两个人所需要做的只是把神山飞羽真历经千辛万苦写出来的曲子弹好而已。可飞羽真有时候想真正在听的人又有多少呢？并不固定时间与场地的表演结束，比起赞叹，他们收到的更多的是这样那样的“去喝一杯”或是“去玩一玩”的搭讪请求……迄今为止飞羽真收到了来自一名男性的、两名女性的，而斯特利乌斯收到了来自两名男性的、三名女性的。最糟糕的一次他们还险些挨打。<br>　　<br>　　要知道地下通道其实是相当不安全的地方，它昏暗、陈旧、寒冷，最重要的事情是没有监控，因此飞羽真还是更倾向于去live house啊公园啊广场啊一类的地点演奏，但有些倒霉完全就是命中注定会发生的环节。为什么他们会不约而同地决定在那里停下来呢？演出进行到一半时，斯特利乌斯不动声色地踩掉了连接着音响的线路，面对眼前几个喝得歪歪扭扭的男性说了声“抱歉”，默默地收拾起地上价值高些的器具……<br>　　<br>　　“怎么了？”飞羽真很茫然。<br>　　<br>　　“神山先生我没想到您的眼睛和脑子一样不好使……瞎子！”斯特利乌斯压低了音量，语气听上去恨不得将吉他一把抡在神山飞羽真脑门上，“你没看到他们的手里拿着刀与碎酒瓶吗？！”<br>　　<br>　　“啊……哈？！”<br>　　<br>　　“‘哈’什么？！跑！！！”<br>　　<br>　　音响成为了为两位倒霉蛋争取逃跑时间的牺牲品，斯特利乌斯干脆利落地将它砸了出去。飞羽真好不容易将键盘塞进了琴盒里了，迈开腿准备狂奔的那一刻还得靠斯特利乌斯猛地一扶，否则他肯定得先脸朝地被拍在地上：“等等等等斯特利乌斯……键盘太重了啊？！”<br>　　<br>　　“你当初到底为什么推荐我买八十八键全配重的键盘啊——这也太摇滚了吧？！”<br>　　<br>　　神山飞羽真背着重达十五千克的键盘哀嚎。<br>　　<br>　　“废话！那当然是因为价格高赚的提成就多啊！”<br>　　<br>　　斯特利乌斯捉住了他的手腕，一揪：“乐器白痴走这边！”<br>　　<br>　　扑进一家不知名场馆后两人才总算松了口气，飞羽真几乎要倒在地上气喘吁吁，还直接将斯特利乌斯递来的矿泉水喝掉了整整一瓶。然而转过头来他又碰上诗人迷惑不定的眼神，斯特利乌斯欲言又止：“那是我让你冲洗你刚刚蹭到的伤……算了。”<br>　　<br>　　“……所以，这瓶是你喝过的吗？斯特利乌斯。”飞羽真的神色顿时变得古怪。<br>　　<br>　　“神山先生，您现在应该庆幸的是我没下毒。”斯特利乌斯懒得理他，站起来，回过头去检查自己的吉他，“而不是才开始考虑究竟有谁饮用过这瓶水。”<br>　　<br>　　“切……”<br>　　<br>　　神山飞羽真也扶着琴盒勉勉强强地站稳，看样子他真是得锻炼锻炼身体了……这么想着，他有气无力地打量四周：“啊……是天文馆耶。看样子，斯特利乌斯对这一片的路径还挺熟的呢——”<br>　　<br>　　“因为小时候，我母亲带我来过这里。”<br>　　<br>　　斯特利乌斯冷不丁说道。<br>　　<br>　　并且，破天荒的，这一次是由他先发出的邀请，尽管语气仍旧是那样，淡淡的，像一支铅笔的笔尖不慎勾连出的痕迹：“那要进去看看吗？”<br>　　<br>　　“看什么？”<br>　　<br>　　神山飞羽真觉得自己问出的问题很莫名其妙。<br>　　<br>　　“星星。”<br>　　<br>　　可斯特利乌斯却也没对此发表出任何意见，他所关注着的，是入口处展示出的一片黑暗。“还有，”他说，“月亮。”<br>　　<br>　　也许是这家天文馆的特色，在巨大的幕布上星空的旋转影像结束时，球幕的正中央会浮现出逼真的月球表面纹路，那时的一切都静静的，只有这颗看上去无比荒芜的星球在不断地旋转、旋转、旋转。说起来为什么斯特利乌斯从来没有提过他的过去呢？神山飞羽真安静地想：这家伙啊，还真是像个幽灵。一只他看得到、摸得着的幽灵。斯特利乌斯冰凉的指印像是还残留在他的腕间。<br>　　<br>　　“还有……两天。”<br>　　<br>　　神山飞羽真轻轻地说：“斯特利乌斯想好要去哪里了吗？”<br>　　<br>　　“没有。”<br>　　<br>　　一只不知从何而来的飞虫掠过投影的光线，影子低垂下来，恰好有短短的一秒停在斯特利乌斯的眼角，随之飞过，他的发尾在躺倒的座椅上挤出细碎如流沙的声音：“我说了，是完全陌生的城市，所以我会在那一天的某一个时间点选择一辆发车时间最近的火车，跳上去。”<br>　　<br>　　“但是……”飞羽真犹豫了片刻，“这里，是斯特利乌斯来过的城市不是吗？你好像对于这里并不陌生。”<br>　　<br>　　“我母亲死了。”<br>　　<br>　　他冷淡地说：“我回来参加葬礼。”<br>　　<br>　　“这样啊……”<br>　　<br>　　飞羽真还想说什么，但被斯特利乌斯抢先一步截断了话音：“小时候的我很害怕月亮。”<br>　　<br>　　“因为斯特利乌斯是狼人吗？”<br>　　<br>　　斯特利乌斯扭头看他，大概是想翻白眼，飞羽真马上道歉：“……我错了。”<br>　　<br>　　“随便你。”<br>　　<br>　　斯特利乌斯近乎细不可闻地叹了口气：“神山先生，你的笑话水平简直和你的论文水平不相上下。”<br>　　<br>　　“喂喂喂，这是人身攻击吧……所以，为什么呢？”<br>　　<br>　　神山飞羽真眨眨眼，右手的大拇指无意识地摩挲左手手腕的皮肤，薄薄的一层，再往下有血液奔涌：“为什么斯特利乌斯会害怕月亮？”<br>　　<br>　　“那时，我的母亲说，月亮是死去的尸体。”<br>　　<br>　　他眯起眼睛，一字一句地说：<br>　　<br>　　“尸体啊……”<br>　　<br>　　“我可以再问一个问题吗，斯特利乌斯？”神山飞羽真微微偏过脑袋，他注视着斯特利乌斯的侧脸，就像是他在博物馆中注视着一具雕琢得过分精美的古希腊雕塑，“作为……乐队的键盘手。”<br>　　<br>　　“请便。”<br>　　<br>　　“斯特利乌斯所写下的，那究竟是诗，还是歌呢？”<br>　　<br>　　“……你居然会问出这样的问题吗，神山飞羽真？”斯特利乌斯似乎在笑，“我本来以为你是世界上最不会问出这个问题的那个人。”<br>　　<br>　　“可这也并不是我想问的问题啊。”<br>　　<br>　　神山飞羽真开始感到困意昏昏沉沉地涌上来……他朝柔软的座椅的更深处缩去，嘟嘟囔囔地嘀咕道：“不是我要问的啦……”<br>　　<br>　　“那是谁？”<br>　　<br>　　“它。”<br>　　<br>　　飞羽真小心翼翼地碰了碰靠在两人座位之间的、斜放着的吉他盒，它的琴弦在轻微的震动中发出虚弱的回响。但在那之后，斯特利乌斯回答了什么呢？神山飞羽真没有听到。<br>　　<br>　　他在月亮的瞩目下陷入昏眠。<br>　　<br>　　斯特利乌斯走的那天神山飞羽真死皮赖脸地要去送，虽然仔细想想他们也并没有什么交情就是了。拖着行李箱，斯特利乌斯穿着一件厚呢子材质的黑色大衣立在风中，神山飞羽真就将一枚冰凉的圆形金属薄片塞入他的指间：“给——这是给斯特利乌斯的临别礼物。”<br>　　<br>　　一颗崭新的五円硬币。<br>　　<br>　　“……真小气啊，神山先生。”斯特利乌斯打量着它，忍不住笑出了声，“甚至不舍得给我一颗五百円的吗？”<br>　　<br>　　“是啊是啊，那又怎样。”神山飞羽真理所应当地说道，“你到底从我的琴里拿了多少钱啦？少给你一点不是应该的吗？那天没把我跑死算你运气好喔。”<br>　　<br>　　“为什么是我运气好？不是你吗？”<br>　　<br>　　“因为我要是为了这个死了的话，我会变成厉鬼折磨你一辈子的……”<br>　　<br>　　飞羽真幽幽地说。<br>　　<br>　　“那想必也不是多么可怕的厉鬼。”斯特利乌斯风轻云淡地回应。<br>　　<br>　　“啊——对了，我还想问呢，虽然斯特利乌斯你不肯把目的地告诉我，不过你就打算一直这样下去吗？就没有一个终点或是目标什么的吗？比如，被眼光好的星探挖掘出道，登上东京巨……”<br>　　<br>　　“我算是知道您为何如此热衷于奇幻小说了。”斯特利乌斯一如既往地挖苦道，很快缄默了一会，将视线的焦点挪向更远的地方，“不过，目标的话，倒可能有了。就在刚刚才想到的。”<br>　　<br>　　“什么？”<br>　　<br>　　“在接下来的人生中都不要被你找到吧，飞羽真。”斯特利乌斯饶有兴致地说，将捏着五円硬币的手掌倒扣回对方的掌心，“那么，我该走了。”<br>　　<br>　　“诶？等一——”<br>　　<br>　　神山飞羽真感受到手中物品真切的棱角与弧度，又没办法拨开人群挤上去，况且，也的确无话可说不是吗？只能留在原地悻悻地摊开手，最终，无可奈何地笑起来：<br>　　<br>　　“什么啊……”<br>　　<br>　　写有“Storious”的吉他拨片如同那一天陷在座椅里的他一样躺在他掌心。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://seii1115.github.io">十三日夜花</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://seii1115.github.io/2025/01/30/%E6%9C%88%E5%B0%B8/">https://seii1115.github.io/2025/01/30/%E6%9C%88%E5%B0%B8/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://seii1115.github.io" target="_blank">十三日夜花</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%A5%9E%E5%B1%B1%E9%A3%9E%E7%BE%BD%E7%9C%9F/">神山飞羽真</a><a class="post-meta__tags" href="/tags/%E7%BE%BD%E4%B9%8C/">羽乌</a><a class="post-meta__tags" href="/tags/%E6%96%AF%E7%89%B9%E5%88%A9%E4%B9%8C%E6%96%AF/">斯特利乌斯</a></div><div class="post-share"><div class="social-share" data-image="/assets/head.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/02/02/%E4%BA%BA%E9%96%93%E8%AF%BE/" title="【羽贤莲】人間课"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">【羽贤莲】人間课</div></div><div class="info-2"><div class="info-item-1">什么是爱呢？</div></div></div></a><a class="pagination-related" href="/2025/01/26/%E8%8D%AF/" title="【隼人中心】主义"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">【隼人中心】主义</div></div><div class="info-2"><div class="info-item-1">乐观主义/</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2024/12/08/%E4%B9%A0%E5%BE%97%E6%80%A7/" title="【羽乌】习得性"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-08</div><div class="info-item-2">【羽乌】习得性</div></div><div class="info-2"><div class="info-item-1">制作爱。</div></div></div></a><a class="pagination-related" href="/2024/12/11/%E8%BD%AC%E7%94%9F%E6%9E%97%E6%AA%8E/" title="【羽乌】苹果"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-11</div><div class="info-item-2">【羽乌】苹果</div></div><div class="info-2"><div class="info-item-1">听说鸦类很适合吃苹果。</div></div></div></a><a class="pagination-related" href="/2024/12/22/%E6%A2%85%E9%9B%A8%E5%AD%A3/" title="【羽乌】梅雨季"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-22</div><div class="info-item-2">【羽乌】梅雨季</div></div><div class="info-2"><div class="info-item-1">梅雨季的屋檐下。</div></div></div></a><a class="pagination-related" href="/2025/01/07/%E9%87%8E%E6%9C%9B/" title="【羽乌】野望"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-01-07</div><div class="info-item-2">【羽乌】野望</div></div><div class="info-2"><div class="info-item-1">只有你灼烧的心脏，再无其他。</div></div></div></a><a class="pagination-related" href="/2024/10/10/%E9%87%91%E9%98%81%E5%AF%BA/" title="【羽乌】金阁寺"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-10</div><div class="info-item-2">【羽乌】金阁寺</div></div><div class="info-2"><div class="info-item-1">一只鸟，死在空中，随即笔直地坠落。</div></div></div></a><a class="pagination-related" href="/2025/04/17/%E8%87%B4%E6%99%BA%E6%83%A0%E5%AD%90/" title="【羽贤】致智惠子"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-17</div><div class="info-item-2">【羽贤】致智惠子</div></div><div class="info-2"><div class="info-item-1">我心里的飞羽真，的确，是一个相当、相当、相当狡猾的人哟。</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/assets/head.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">十三日夜花</div><div class="author-info-description">我们在非常寂静的松树林里走着。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">79</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">76</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://weibo.com/u/7947067016"><i class="fab fa-weibo"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/23/%E8%8B%8D%E4%B9%8B%E6%A3%AE%E6%9E%97%E7%9A%84%E5%8D%A0%E5%8D%9C%E9%AD%94%E5%A5%B3/" title="【手芝】苍之森林的占卜魔女">【手芝】苍之森林的占卜魔女</a><time datetime="2026-10-22T16:00:00.000Z" title="发表于 2026-10-23 00:00:00">2026-10-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/20/%E8%B0%A8%E9%98%B2%E5%B0%81%E5%BB%BA%E8%BF%B7%E4%BF%A1/" title="【北海北】谨防封建迷信">【北海北】谨防封建迷信</a><time datetime="2026-10-19T16:00:00.000Z" title="发表于 2026-10-20 00:00:00">2026-10-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/19/%E6%82%A0%E9%95%BF%E5%81%87%E6%9C%9F/" title="【海莲】悠长假期">【海莲】悠长假期</a><time datetime="2026-10-18T16:00:00.000Z" title="发表于 2026-10-19 00:00:00">2026-10-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/04/%E8%BF%87%E6%98%A5%E5%A4%A9/" title="【律警】关于得罪黑社会好像就会被〇〇的事">【律警】关于得罪黑社会好像就会被〇〇的事</a><time datetime="2026-10-03T16:00:00.000Z" title="发表于 2026-10-04 00:00:00">2026-10-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/09/28/%E5%8D%A1%E7%8E%9B/" title="【律警】卡玛">【律警】卡玛</a><time datetime="2026-09-27T16:00:00.000Z" title="发表于 2026-09-28 00:00:00">2026-09-28</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 十三日夜花</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.0</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script src="/js/rain.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章标题" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.0"></script></div></div></body></html>
